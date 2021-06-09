@@ -1,0 +1,1951 @@
+(this["webpackJsonpreact-portfolio"] = this["webpackJsonpreact-portfolio"] || []).push([["main"],{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/App.css ***!
+  \************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, "\n\n/*FIREFLY BACKGROUND ANIMATION*/\n\n.firefly {\n  position: fixed;\n  left: 50%;\n  top: 50%;\n  width: 0.4vw;\n  height: 0.4vw;\n  margin: -0.2vw 0 0 9.8vw;\n  animation: ease 200s alternate infinite;\n  pointer-events: none;\n}\n.firefly::before, .firefly::after {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  border-radius: 50%;\n  transform-origin: -10vw;\n}\n.firefly::before {\n  background: rgb(255, 255, 255);\n  opacity: 0.4;\n  animation: drift ease alternate infinite;\n}\n.firefly::after {\n  background: white;\n  opacity: 0;\n  box-shadow: 0 0 0vw 0vw rgb(255, 255, 255);\n  animation: drift ease alternate infinite, flash ease infinite;\n}\n\n.firefly:nth-child(1) {\n  animation-name: move1;\n}\n.firefly:nth-child(1)::before {\n  animation-duration: 13s;\n}\n.firefly:nth-child(1)::after {\n  animation-duration: 13s, 5023ms;\n  animation-delay: 0ms, 5375ms;\n}\n\n@keyframes move1 {\n  0% {\n    transform: translateX(37vw) translateY(5vh) scale(0.73);\n  }\n  5% {\n    transform: translateX(33vw) translateY(-5vh) scale(0.76);\n  }\n  10% {\n    transform: translateX(-49vw) translateY(-40vh) scale(0.91);\n  }\n  15% {\n    transform: translateX(13vw) translateY(39vh) scale(0.77);\n  }\n  20% {\n    transform: translateX(36vw) translateY(40vh) scale(0.85);\n  }\n  25% {\n    transform: translateX(-27vw) translateY(28vh) scale(0.4);\n  }\n  30% {\n    transform: translateX(27vw) translateY(-5vh) scale(0.42);\n  }\n  35% {\n    transform: translateX(-2vw) translateY(-45vh) scale(0.85);\n  }\n  40% {\n    transform: translateX(-32vw) translateY(13vh) scale(0.79);\n  }\n  45% {\n    transform: translateX(-42vw) translateY(-40vh) scale(0.89);\n  }\n  50% {\n    transform: translateX(8vw) translateY(47vh) scale(0.92);\n  }\n  55% {\n    transform: translateX(-6vw) translateY(-23vh) scale(0.39);\n  }\n  60% {\n    transform: translateX(44vw) translateY(10vh) scale(0.43);\n  }\n  65% {\n    transform: translateX(43vw) translateY(17vh) scale(0.81);\n  }\n  70% {\n    transform: translateX(-23vw) translateY(36vh) scale(0.62);\n  }\n  75% {\n    transform: translateX(-31vw) translateY(0vh) scale(0.82);\n  }\n  80% {\n    transform: translateX(24vw) translateY(-49vh) scale(0.41);\n  }\n  85% {\n    transform: translateX(26vw) translateY(-14vh) scale(0.66);\n  }\n  90% {\n    transform: translateX(48vw) translateY(8vh) scale(0.82);\n  }\n  95% {\n    transform: translateX(-27vw) translateY(-15vh) scale(0.46);\n  }\n  100% {\n    transform: translateX(-20vw) translateY(10vh) scale(0.65);\n  }\n}\n.firefly:nth-child(2) {\n  animation-name: move2;\n}\n.firefly:nth-child(2)::before {\n  animation-duration: 17s;\n}\n.firefly:nth-child(2)::after {\n  animation-duration: 17s, 6755ms;\n  animation-delay: 0ms, 4182ms;\n}\n\n@keyframes move2 {\n  0% {\n    transform: translateX(-26vw) translateY(35vh) scale(0.83);\n  }\n  3.5714285714% {\n    transform: translateX(-12vw) translateY(-14vh) scale(0.61);\n  }\n  7.1428571429% {\n    transform: translateX(29vw) translateY(-18vh) scale(0.8);\n  }\n  10.7142857143% {\n    transform: translateX(26vw) translateY(-36vh) scale(0.8);\n  }\n  14.2857142857% {\n    transform: translateX(-33vw) translateY(-36vh) scale(0.39);\n  }\n  17.8571428571% {\n    transform: translateX(0vw) translateY(-44vh) scale(0.51);\n  }\n  21.4285714286% {\n    transform: translateX(27vw) translateY(7vh) scale(0.42);\n  }\n  25% {\n    transform: translateX(5vw) translateY(-31vh) scale(0.37);\n  }\n  28.5714285714% {\n    transform: translateX(12vw) translateY(4vh) scale(0.86);\n  }\n  32.1428571429% {\n    transform: translateX(14vw) translateY(16vh) scale(0.7);\n  }\n  35.7142857143% {\n    transform: translateX(-34vw) translateY(36vh) scale(0.59);\n  }\n  39.2857142857% {\n    transform: translateX(-22vw) translateY(-46vh) scale(0.89);\n  }\n  42.8571428571% {\n    transform: translateX(-22vw) translateY(-22vh) scale(0.65);\n  }\n  46.4285714286% {\n    transform: translateX(39vw) translateY(-8vh) scale(0.6);\n  }\n  50% {\n    transform: translateX(37vw) translateY(47vh) scale(0.77);\n  }\n  53.5714285714% {\n    transform: translateX(46vw) translateY(-49vh) scale(0.91);\n  }\n  57.1428571429% {\n    transform: translateX(-32vw) translateY(-12vh) scale(0.87);\n  }\n  60.7142857143% {\n    transform: translateX(-13vw) translateY(-27vh) scale(0.7);\n  }\n  64.2857142857% {\n    transform: translateX(-19vw) translateY(25vh) scale(0.59);\n  }\n  67.8571428571% {\n    transform: translateX(-30vw) translateY(6vh) scale(0.31);\n  }\n  71.4285714286% {\n    transform: translateX(38vw) translateY(46vh) scale(0.58);\n  }\n  75% {\n    transform: translateX(14vw) translateY(-33vh) scale(0.26);\n  }\n  78.5714285714% {\n    transform: translateX(-17vw) translateY(-17vh) scale(0.26);\n  }\n  82.1428571429% {\n    transform: translateX(19vw) translateY(49vh) scale(0.28);\n  }\n  85.7142857143% {\n    transform: translateX(36vw) translateY(47vh) scale(0.31);\n  }\n  89.2857142857% {\n    transform: translateX(6vw) translateY(39vh) scale(0.56);\n  }\n  92.8571428571% {\n    transform: translateX(13vw) translateY(39vh) scale(0.79);\n  }\n  96.4285714286% {\n    transform: translateX(-37vw) translateY(39vh) scale(0.98);\n  }\n  100% {\n    transform: translateX(31vw) translateY(36vh) scale(0.29);\n  }\n}\n.firefly:nth-child(3) {\n  animation-name: move3;\n}\n.firefly:nth-child(3)::before {\n  animation-duration: 16s;\n}\n.firefly:nth-child(3)::after {\n  animation-duration: 16s, 9291ms;\n  animation-delay: 0ms, 7952ms;\n}\n\n@keyframes move3 {\n  0% {\n    transform: translateX(27vw) translateY(15vh) scale(0.47);\n  }\n  4.347826087% {\n    transform: translateX(-15vw) translateY(25vh) scale(0.44);\n  }\n  8.6956521739% {\n    transform: translateX(-31vw) translateY(-39vh) scale(0.43);\n  }\n  13.0434782609% {\n    transform: translateX(-1vw) translateY(15vh) scale(0.94);\n  }\n  17.3913043478% {\n    transform: translateX(-19vw) translateY(-34vh) scale(0.64);\n  }\n  21.7391304348% {\n    transform: translateX(46vw) translateY(-20vh) scale(0.85);\n  }\n  26.0869565217% {\n    transform: translateX(28vw) translateY(-2vh) scale(0.34);\n  }\n  30.4347826087% {\n    transform: translateX(41vw) translateY(-30vh) scale(0.86);\n  }\n  34.7826086957% {\n    transform: translateX(27vw) translateY(-2vh) scale(0.5);\n  }\n  39.1304347826% {\n    transform: translateX(-33vw) translateY(-47vh) scale(0.75);\n  }\n  43.4782608696% {\n    transform: translateX(-37vw) translateY(-17vh) scale(0.53);\n  }\n  47.8260869565% {\n    transform: translateX(-31vw) translateY(-35vh) scale(0.9);\n  }\n  52.1739130435% {\n    transform: translateX(2vw) translateY(-30vh) scale(0.67);\n  }\n  56.5217391304% {\n    transform: translateX(-2vw) translateY(-12vh) scale(0.71);\n  }\n  60.8695652174% {\n    transform: translateX(46vw) translateY(-40vh) scale(0.48);\n  }\n  65.2173913043% {\n    transform: translateX(-23vw) translateY(-29vh) scale(0.29);\n  }\n  69.5652173913% {\n    transform: translateX(-21vw) translateY(-31vh) scale(0.28);\n  }\n  73.9130434783% {\n    transform: translateX(-48vw) translateY(49vh) scale(0.48);\n  }\n  78.2608695652% {\n    transform: translateX(12vw) translateY(21vh) scale(0.47);\n  }\n  82.6086956522% {\n    transform: translateX(40vw) translateY(8vh) scale(0.36);\n  }\n  86.9565217391% {\n    transform: translateX(-17vw) translateY(25vh) scale(0.76);\n  }\n  91.3043478261% {\n    transform: translateX(-10vw) translateY(-2vh) scale(0.44);\n  }\n  95.652173913% {\n    transform: translateX(50vw) translateY(37vh) scale(1);\n  }\n  100% {\n    transform: translateX(8vw) translateY(49vh) scale(0.63);\n  }\n}\n.firefly:nth-child(4) {\n  animation-name: move4;\n}\n.firefly:nth-child(4)::before {\n  animation-duration: 16s;\n}\n.firefly:nth-child(4)::after {\n  animation-duration: 16s, 7108ms;\n  animation-delay: 0ms, 4483ms;\n}\n\n@keyframes move4 {\n  0% {\n    transform: translateX(44vw) translateY(-33vh) scale(0.56);\n  }\n  3.7037037037% {\n    transform: translateX(-35vw) translateY(-32vh) scale(0.77);\n  }\n  7.4074074074% {\n    transform: translateX(0vw) translateY(-46vh) scale(0.79);\n  }\n  11.1111111111% {\n    transform: translateX(49vw) translateY(-17vh) scale(0.91);\n  }\n  14.8148148148% {\n    transform: translateX(-11vw) translateY(46vh) scale(0.7);\n  }\n  18.5185185185% {\n    transform: translateX(-6vw) translateY(-43vh) scale(0.61);\n  }\n  22.2222222222% {\n    transform: translateX(-11vw) translateY(22vh) scale(0.47);\n  }\n  25.9259259259% {\n    transform: translateX(43vw) translateY(20vh) scale(0.34);\n  }\n  29.6296296296% {\n    transform: translateX(-20vw) translateY(11vh) scale(0.55);\n  }\n  33.3333333333% {\n    transform: translateX(-49vw) translateY(-6vh) scale(0.51);\n  }\n  37.037037037% {\n    transform: translateX(-2vw) translateY(43vh) scale(0.89);\n  }\n  40.7407407407% {\n    transform: translateX(-36vw) translateY(-49vh) scale(0.74);\n  }\n  44.4444444444% {\n    transform: translateX(47vw) translateY(3vh) scale(0.49);\n  }\n  48.1481481481% {\n    transform: translateX(6vw) translateY(-4vh) scale(0.56);\n  }\n  51.8518518519% {\n    transform: translateX(48vw) translateY(23vh) scale(0.35);\n  }\n  55.5555555556% {\n    transform: translateX(-48vw) translateY(21vh) scale(0.37);\n  }\n  59.2592592593% {\n    transform: translateX(36vw) translateY(12vh) scale(0.56);\n  }\n  62.962962963% {\n    transform: translateX(31vw) translateY(13vh) scale(0.43);\n  }\n  66.6666666667% {\n    transform: translateX(42vw) translateY(-32vh) scale(0.56);\n  }\n  70.3703703704% {\n    transform: translateX(13vw) translateY(10vh) scale(0.95);\n  }\n  74.0740740741% {\n    transform: translateX(-19vw) translateY(-13vh) scale(0.46);\n  }\n  77.7777777778% {\n    transform: translateX(22vw) translateY(19vh) scale(0.46);\n  }\n  81.4814814815% {\n    transform: translateX(29vw) translateY(-33vh) scale(0.74);\n  }\n  85.1851851852% {\n    transform: translateX(14vw) translateY(-32vh) scale(0.91);\n  }\n  88.8888888889% {\n    transform: translateX(15vw) translateY(-3vh) scale(0.37);\n  }\n  92.5925925926% {\n    transform: translateX(-25vw) translateY(25vh) scale(0.81);\n  }\n  96.2962962963% {\n    transform: translateX(48vw) translateY(-7vh) scale(0.62);\n  }\n  100% {\n    transform: translateX(-36vw) translateY(-45vh) scale(0.58);\n  }\n}\n.firefly:nth-child(5) {\n  animation-name: move5;\n}\n.firefly:nth-child(5)::before {\n  animation-duration: 9s;\n}\n.firefly:nth-child(5)::after {\n  animation-duration: 9s, 10883ms;\n  animation-delay: 0ms, 6806ms;\n}\n\n@keyframes move5 {\n  0% {\n    transform: translateX(11vw) translateY(32vh) scale(0.51);\n  }\n  5% {\n    transform: translateX(9vw) translateY(26vh) scale(0.54);\n  }\n  10% {\n    transform: translateX(11vw) translateY(-6vh) scale(0.41);\n  }\n  15% {\n    transform: translateX(31vw) translateY(-29vh) scale(0.61);\n  }\n  20% {\n    transform: translateX(24vw) translateY(6vh) scale(0.59);\n  }\n  25% {\n    transform: translateX(-21vw) translateY(-46vh) scale(0.35);\n  }\n  30% {\n    transform: translateX(-21vw) translateY(-18vh) scale(0.52);\n  }\n  35% {\n    transform: translateX(-46vw) translateY(46vh) scale(0.67);\n  }\n  40% {\n    transform: translateX(36vw) translateY(-16vh) scale(0.92);\n  }\n  45% {\n    transform: translateX(-37vw) translateY(-21vh) scale(0.69);\n  }\n  50% {\n    transform: translateX(-44vw) translateY(24vh) scale(0.38);\n  }\n  55% {\n    transform: translateX(-13vw) translateY(-47vh) scale(0.74);\n  }\n  60% {\n    transform: translateX(35vw) translateY(-36vh) scale(0.7);\n  }\n  65% {\n    transform: translateX(11vw) translateY(28vh) scale(0.34);\n  }\n  70% {\n    transform: translateX(-13vw) translateY(36vh) scale(0.36);\n  }\n  75% {\n    transform: translateX(19vw) translateY(38vh) scale(0.72);\n  }\n  80% {\n    transform: translateX(-32vw) translateY(41vh) scale(0.73);\n  }\n  85% {\n    transform: translateX(20vw) translateY(-39vh) scale(0.52);\n  }\n  90% {\n    transform: translateX(-1vw) translateY(-3vh) scale(0.38);\n  }\n  95% {\n    transform: translateX(35vw) translateY(-25vh) scale(0.75);\n  }\n  100% {\n    transform: translateX(21vw) translateY(45vh) scale(0.42);\n  }\n}\n.firefly:nth-child(6) {\n  animation-name: move6;\n}\n.firefly:nth-child(6)::before {\n  animation-duration: 9s;\n}\n.firefly:nth-child(6)::after {\n  animation-duration: 9s, 9340ms;\n  animation-delay: 0ms, 2170ms;\n}\n\n@keyframes move6 {\n  0% {\n    transform: translateX(-27vw) translateY(-31vh) scale(0.42);\n  }\n  4% {\n    transform: translateX(-46vw) translateY(-48vh) scale(0.93);\n  }\n  8% {\n    transform: translateX(-14vw) translateY(8vh) scale(0.42);\n  }\n  12% {\n    transform: translateX(48vw) translateY(7vh) scale(0.71);\n  }\n  16% {\n    transform: translateX(-23vw) translateY(-2vh) scale(0.81);\n  }\n  20% {\n    transform: translateX(31vw) translateY(15vh) scale(0.56);\n  }\n  24% {\n    transform: translateX(32vw) translateY(-18vh) scale(0.5);\n  }\n  28% {\n    transform: translateX(42vw) translateY(28vh) scale(0.66);\n  }\n  32% {\n    transform: translateX(-32vw) translateY(-39vh) scale(0.65);\n  }\n  36% {\n    transform: translateX(-22vw) translateY(40vh) scale(0.61);\n  }\n  40% {\n    transform: translateX(-6vw) translateY(-13vh) scale(0.94);\n  }\n  44% {\n    transform: translateX(44vw) translateY(44vh) scale(0.5);\n  }\n  48% {\n    transform: translateX(40vw) translateY(-29vh) scale(0.34);\n  }\n  52% {\n    transform: translateX(-25vw) translateY(6vh) scale(0.84);\n  }\n  56% {\n    transform: translateX(-10vw) translateY(-6vh) scale(0.84);\n  }\n  60% {\n    transform: translateX(-14vw) translateY(-44vh) scale(0.56);\n  }\n  64% {\n    transform: translateX(-4vw) translateY(-40vh) scale(0.6);\n  }\n  68% {\n    transform: translateX(9vw) translateY(-17vh) scale(0.29);\n  }\n  72% {\n    transform: translateX(-30vw) translateY(-6vh) scale(0.75);\n  }\n  76% {\n    transform: translateX(30vw) translateY(7vh) scale(0.46);\n  }\n  80% {\n    transform: translateX(-48vw) translateY(22vh) scale(0.36);\n  }\n  84% {\n    transform: translateX(43vw) translateY(-39vh) scale(0.97);\n  }\n  88% {\n    transform: translateX(-47vw) translateY(35vh) scale(0.45);\n  }\n  92% {\n    transform: translateX(-32vw) translateY(-18vh) scale(0.31);\n  }\n  96% {\n    transform: translateX(-42vw) translateY(-26vh) scale(0.56);\n  }\n  100% {\n    transform: translateX(-47vw) translateY(39vh) scale(0.95);\n  }\n}\n.firefly:nth-child(7) {\n  animation-name: move7;\n}\n.firefly:nth-child(7)::before {\n  animation-duration: 12s;\n}\n.firefly:nth-child(7)::after {\n  animation-duration: 12s, 9330ms;\n  animation-delay: 0ms, 1270ms;\n}\n\n@keyframes move7 {\n  0% {\n    transform: translateX(28vw) translateY(34vh) scale(0.58);\n  }\n  4.5454545455% {\n    transform: translateX(-5vw) translateY(45vh) scale(0.47);\n  }\n  9.0909090909% {\n    transform: translateX(-2vw) translateY(-34vh) scale(0.57);\n  }\n  13.6363636364% {\n    transform: translateX(19vw) translateY(29vh) scale(0.46);\n  }\n  18.1818181818% {\n    transform: translateX(-37vw) translateY(43vh) scale(0.61);\n  }\n  22.7272727273% {\n    transform: translateX(26vw) translateY(17vh) scale(0.59);\n  }\n  27.2727272727% {\n    transform: translateX(-49vw) translateY(-24vh) scale(0.26);\n  }\n  31.8181818182% {\n    transform: translateX(-4vw) translateY(-34vh) scale(0.91);\n  }\n  36.3636363636% {\n    transform: translateX(-34vw) translateY(-7vh) scale(0.48);\n  }\n  40.9090909091% {\n    transform: translateX(-40vw) translateY(-36vh) scale(0.3);\n  }\n  45.4545454545% {\n    transform: translateX(29vw) translateY(-35vh) scale(0.97);\n  }\n  50% {\n    transform: translateX(12vw) translateY(-5vh) scale(0.45);\n  }\n  54.5454545455% {\n    transform: translateX(25vw) translateY(-21vh) scale(0.88);\n  }\n  59.0909090909% {\n    transform: translateX(25vw) translateY(50vh) scale(0.83);\n  }\n  63.6363636364% {\n    transform: translateX(23vw) translateY(-40vh) scale(0.61);\n  }\n  68.1818181818% {\n    transform: translateX(40vw) translateY(8vh) scale(0.7);\n  }\n  72.7272727273% {\n    transform: translateX(-26vw) translateY(-43vh) scale(0.61);\n  }\n  77.2727272727% {\n    transform: translateX(-29vw) translateY(24vh) scale(0.83);\n  }\n  81.8181818182% {\n    transform: translateX(13vw) translateY(-28vh) scale(0.69);\n  }\n  86.3636363636% {\n    transform: translateX(22vw) translateY(-40vh) scale(0.44);\n  }\n  90.9090909091% {\n    transform: translateX(-8vw) translateY(-44vh) scale(0.75);\n  }\n  95.4545454545% {\n    transform: translateX(-29vw) translateY(41vh) scale(0.77);\n  }\n  100% {\n    transform: translateX(-13vw) translateY(16vh) scale(0.71);\n  }\n}\n.firefly:nth-child(8) {\n  animation-name: move8;\n}\n.firefly:nth-child(8)::before {\n  animation-duration: 9s;\n}\n.firefly:nth-child(8)::after {\n  animation-duration: 9s, 9951ms;\n  animation-delay: 0ms, 7203ms;\n}\n\n@keyframes move8 {\n  0% {\n    transform: translateX(-21vw) translateY(-35vh) scale(0.26);\n  }\n  5.8823529412% {\n    transform: translateX(-47vw) translateY(-33vh) scale(0.58);\n  }\n  11.7647058824% {\n    transform: translateX(42vw) translateY(-31vh) scale(0.62);\n  }\n  17.6470588235% {\n    transform: translateX(-17vw) translateY(-32vh) scale(0.8);\n  }\n  23.5294117647% {\n    transform: translateX(-36vw) translateY(-11vh) scale(0.33);\n  }\n  29.4117647059% {\n    transform: translateX(-25vw) translateY(19vh) scale(0.58);\n  }\n  35.2941176471% {\n    transform: translateX(-1vw) translateY(37vh) scale(0.48);\n  }\n  41.1764705882% {\n    transform: translateX(47vw) translateY(-44vh) scale(0.73);\n  }\n  47.0588235294% {\n    transform: translateX(-19vw) translateY(14vh) scale(0.45);\n  }\n  52.9411764706% {\n    transform: translateX(27vw) translateY(3vh) scale(0.26);\n  }\n  58.8235294118% {\n    transform: translateX(44vw) translateY(-34vh) scale(0.39);\n  }\n  64.7058823529% {\n    transform: translateX(-9vw) translateY(-44vh) scale(0.73);\n  }\n  70.5882352941% {\n    transform: translateX(-47vw) translateY(32vh) scale(0.8);\n  }\n  76.4705882353% {\n    transform: translateX(20vw) translateY(-19vh) scale(0.78);\n  }\n  82.3529411765% {\n    transform: translateX(27vw) translateY(25vh) scale(0.68);\n  }\n  88.2352941176% {\n    transform: translateX(-9vw) translateY(-26vh) scale(0.6);\n  }\n  94.1176470588% {\n    transform: translateX(-44vw) translateY(33vh) scale(0.72);\n  }\n  100% {\n    transform: translateX(41vw) translateY(-48vh) scale(0.84);\n  }\n}\n.firefly:nth-child(9) {\n  animation-name: move9;\n}\n.firefly:nth-child(9)::before {\n  animation-duration: 13s;\n}\n.firefly:nth-child(9)::after {\n  animation-duration: 13s, 8704ms;\n  animation-delay: 0ms, 1154ms;\n}\n\n@keyframes move9 {\n  0% {\n    transform: translateX(-30vw) translateY(47vh) scale(0.69);\n  }\n  5.5555555556% {\n    transform: translateX(-25vw) translateY(-42vh) scale(0.47);\n  }\n  11.1111111111% {\n    transform: translateX(-40vw) translateY(-2vh) scale(0.62);\n  }\n  16.6666666667% {\n    transform: translateX(-36vw) translateY(5vh) scale(0.37);\n  }\n  22.2222222222% {\n    transform: translateX(31vw) translateY(-13vh) scale(0.57);\n  }\n  27.7777777778% {\n    transform: translateX(44vw) translateY(-20vh) scale(0.91);\n  }\n  33.3333333333% {\n    transform: translateX(33vw) translateY(11vh) scale(0.69);\n  }\n  38.8888888889% {\n    transform: translateX(5vw) translateY(-35vh) scale(0.41);\n  }\n  44.4444444444% {\n    transform: translateX(-15vw) translateY(30vh) scale(0.36);\n  }\n  50% {\n    transform: translateX(-23vw) translateY(-28vh) scale(1);\n  }\n  55.5555555556% {\n    transform: translateX(-11vw) translateY(10vh) scale(0.97);\n  }\n  61.1111111111% {\n    transform: translateX(-27vw) translateY(29vh) scale(0.32);\n  }\n  66.6666666667% {\n    transform: translateX(-33vw) translateY(-31vh) scale(0.68);\n  }\n  72.2222222222% {\n    transform: translateX(-9vw) translateY(-27vh) scale(0.93);\n  }\n  77.7777777778% {\n    transform: translateX(-10vw) translateY(-3vh) scale(0.61);\n  }\n  83.3333333333% {\n    transform: translateX(25vw) translateY(-17vh) scale(0.85);\n  }\n  88.8888888889% {\n    transform: translateX(8vw) translateY(36vh) scale(0.88);\n  }\n  94.4444444444% {\n    transform: translateX(15vw) translateY(28vh) scale(0.77);\n  }\n  100% {\n    transform: translateX(-29vw) translateY(34vh) scale(0.61);\n  }\n}\n.firefly:nth-child(10) {\n  animation-name: move10;\n}\n.firefly:nth-child(10)::before {\n  animation-duration: 18s;\n}\n.firefly:nth-child(10)::after {\n  animation-duration: 18s, 10039ms;\n  animation-delay: 0ms, 8086ms;\n}\n\n@keyframes move10 {\n  0% {\n    transform: translateX(28vw) translateY(28vh) scale(0.63);\n  }\n  3.8461538462% {\n    transform: translateX(13vw) translateY(30vh) scale(0.91);\n  }\n  7.6923076923% {\n    transform: translateX(18vw) translateY(5vh) scale(0.47);\n  }\n  11.5384615385% {\n    transform: translateX(38vw) translateY(-37vh) scale(0.9);\n  }\n  15.3846153846% {\n    transform: translateX(43vw) translateY(2vh) scale(0.34);\n  }\n  19.2307692308% {\n    transform: translateX(-39vw) translateY(38vh) scale(1);\n  }\n  23.0769230769% {\n    transform: translateX(-24vw) translateY(36vh) scale(0.4);\n  }\n  26.9230769231% {\n    transform: translateX(39vw) translateY(-39vh) scale(0.98);\n  }\n  30.7692307692% {\n    transform: translateX(-29vw) translateY(-4vh) scale(0.3);\n  }\n  34.6153846154% {\n    transform: translateX(38vw) translateY(-33vh) scale(0.59);\n  }\n  38.4615384615% {\n    transform: translateX(37vw) translateY(-31vh) scale(0.95);\n  }\n  42.3076923077% {\n    transform: translateX(18vw) translateY(31vh) scale(0.73);\n  }\n  46.1538461538% {\n    transform: translateX(-45vw) translateY(8vh) scale(0.43);\n  }\n  50% {\n    transform: translateX(-19vw) translateY(-27vh) scale(0.39);\n  }\n  53.8461538462% {\n    transform: translateX(33vw) translateY(-12vh) scale(0.96);\n  }\n  57.6923076923% {\n    transform: translateX(-36vw) translateY(14vh) scale(1);\n  }\n  61.5384615385% {\n    transform: translateX(14vw) translateY(-15vh) scale(0.56);\n  }\n  65.3846153846% {\n    transform: translateX(-18vw) translateY(28vh) scale(0.65);\n  }\n  69.2307692308% {\n    transform: translateX(-13vw) translateY(0vh) scale(0.76);\n  }\n  73.0769230769% {\n    transform: translateX(-33vw) translateY(-38vh) scale(0.61);\n  }\n  76.9230769231% {\n    transform: translateX(28vw) translateY(-32vh) scale(0.87);\n  }\n  80.7692307692% {\n    transform: translateX(29vw) translateY(-48vh) scale(0.33);\n  }\n  84.6153846154% {\n    transform: translateX(-20vw) translateY(-13vh) scale(0.65);\n  }\n  88.4615384615% {\n    transform: translateX(6vw) translateY(-48vh) scale(0.84);\n  }\n  92.3076923077% {\n    transform: translateX(48vw) translateY(30vh) scale(0.65);\n  }\n  96.1538461538% {\n    transform: translateX(7vw) translateY(-22vh) scale(0.58);\n  }\n  100% {\n    transform: translateX(44vw) translateY(15vh) scale(0.42);\n  }\n}\n.firefly:nth-child(11) {\n  animation-name: move11;\n}\n.firefly:nth-child(11)::before {\n  animation-duration: 9s;\n}\n.firefly:nth-child(11)::after {\n  animation-duration: 9s, 10855ms;\n  animation-delay: 0ms, 2494ms;\n}\n\n@keyframes move11 {\n  0% {\n    transform: translateX(-27vw) translateY(38vh) scale(1);\n  }\n  4.5454545455% {\n    transform: translateX(-27vw) translateY(-31vh) scale(0.8);\n  }\n  9.0909090909% {\n    transform: translateX(49vw) translateY(-39vh) scale(0.83);\n  }\n  13.6363636364% {\n    transform: translateX(-26vw) translateY(-31vh) scale(0.89);\n  }\n  18.1818181818% {\n    transform: translateX(43vw) translateY(14vh) scale(0.77);\n  }\n  22.7272727273% {\n    transform: translateX(21vw) translateY(47vh) scale(0.7);\n  }\n  27.2727272727% {\n    transform: translateX(-6vw) translateY(1vh) scale(0.87);\n  }\n  31.8181818182% {\n    transform: translateX(-22vw) translateY(45vh) scale(0.79);\n  }\n  36.3636363636% {\n    transform: translateX(33vw) translateY(41vh) scale(0.65);\n  }\n  40.9090909091% {\n    transform: translateX(-27vw) translateY(-15vh) scale(0.44);\n  }\n  45.4545454545% {\n    transform: translateX(-21vw) translateY(20vh) scale(0.68);\n  }\n  50% {\n    transform: translateX(-18vw) translateY(31vh) scale(0.99);\n  }\n  54.5454545455% {\n    transform: translateX(-36vw) translateY(-36vh) scale(0.31);\n  }\n  59.0909090909% {\n    transform: translateX(17vw) translateY(35vh) scale(0.83);\n  }\n  63.6363636364% {\n    transform: translateX(-45vw) translateY(-26vh) scale(0.8);\n  }\n  68.1818181818% {\n    transform: translateX(48vw) translateY(35vh) scale(0.95);\n  }\n  72.7272727273% {\n    transform: translateX(-45vw) translateY(-48vh) scale(0.3);\n  }\n  77.2727272727% {\n    transform: translateX(-42vw) translateY(-10vh) scale(0.85);\n  }\n  81.8181818182% {\n    transform: translateX(7vw) translateY(-13vh) scale(0.56);\n  }\n  86.3636363636% {\n    transform: translateX(-28vw) translateY(45vh) scale(0.29);\n  }\n  90.9090909091% {\n    transform: translateX(-9vw) translateY(-20vh) scale(0.7);\n  }\n  95.4545454545% {\n    transform: translateX(11vw) translateY(-49vh) scale(0.68);\n  }\n  100% {\n    transform: translateX(21vw) translateY(-11vh) scale(1);\n  }\n}\n.firefly:nth-child(12) {\n  animation-name: move12;\n}\n.firefly:nth-child(12)::before {\n  animation-duration: 12s;\n}\n.firefly:nth-child(12)::after {\n  animation-duration: 12s, 7138ms;\n  animation-delay: 0ms, 5713ms;\n}\n\n@keyframes move12 {\n  0% {\n    transform: translateX(36vw) translateY(-17vh) scale(0.6);\n  }\n  4% {\n    transform: translateX(40vw) translateY(12vh) scale(0.44);\n  }\n  8% {\n    transform: translateX(-39vw) translateY(19vh) scale(0.78);\n  }\n  12% {\n    transform: translateX(-10vw) translateY(-27vh) scale(0.53);\n  }\n  16% {\n    transform: translateX(-26vw) translateY(37vh) scale(0.96);\n  }\n  20% {\n    transform: translateX(-36vw) translateY(-2vh) scale(0.34);\n  }\n  24% {\n    transform: translateX(-16vw) translateY(23vh) scale(0.97);\n  }\n  28% {\n    transform: translateX(11vw) translateY(9vh) scale(0.82);\n  }\n  32% {\n    transform: translateX(14vw) translateY(25vh) scale(0.76);\n  }\n  36% {\n    transform: translateX(-27vw) translateY(11vh) scale(0.86);\n  }\n  40% {\n    transform: translateX(-19vw) translateY(34vh) scale(0.82);\n  }\n  44% {\n    transform: translateX(27vw) translateY(29vh) scale(0.82);\n  }\n  48% {\n    transform: translateX(15vw) translateY(-49vh) scale(0.31);\n  }\n  52% {\n    transform: translateX(11vw) translateY(-16vh) scale(0.96);\n  }\n  56% {\n    transform: translateX(-39vw) translateY(50vh) scale(0.51);\n  }\n  60% {\n    transform: translateX(35vw) translateY(-32vh) scale(0.86);\n  }\n  64% {\n    transform: translateX(-23vw) translateY(-21vh) scale(0.32);\n  }\n  68% {\n    transform: translateX(47vw) translateY(24vh) scale(0.55);\n  }\n  72% {\n    transform: translateX(31vw) translateY(41vh) scale(0.7);\n  }\n  76% {\n    transform: translateX(-10vw) translateY(1vh) scale(0.66);\n  }\n  80% {\n    transform: translateX(-16vw) translateY(-47vh) scale(0.43);\n  }\n  84% {\n    transform: translateX(39vw) translateY(12vh) scale(0.84);\n  }\n  88% {\n    transform: translateX(-25vw) translateY(-19vh) scale(0.45);\n  }\n  92% {\n    transform: translateX(31vw) translateY(22vh) scale(0.97);\n  }\n  96% {\n    transform: translateX(-15vw) translateY(26vh) scale(0.44);\n  }\n  100% {\n    transform: translateX(-30vw) translateY(-38vh) scale(0.43);\n  }\n}\n.firefly:nth-child(13) {\n  animation-name: move13;\n}\n.firefly:nth-child(13)::before {\n  animation-duration: 15s;\n}\n.firefly:nth-child(13)::after {\n  animation-duration: 15s, 9282ms;\n  animation-delay: 0ms, 4458ms;\n}\n\n@keyframes move13 {\n  0% {\n    transform: translateX(6vw) translateY(-35vh) scale(0.99);\n  }\n  3.7037037037% {\n    transform: translateX(-22vw) translateY(31vh) scale(0.27);\n  }\n  7.4074074074% {\n    transform: translateX(19vw) translateY(-43vh) scale(0.82);\n  }\n  11.1111111111% {\n    transform: translateX(16vw) translateY(-27vh) scale(0.81);\n  }\n  14.8148148148% {\n    transform: translateX(7vw) translateY(-22vh) scale(0.88);\n  }\n  18.5185185185% {\n    transform: translateX(-34vw) translateY(-18vh) scale(1);\n  }\n  22.2222222222% {\n    transform: translateX(-31vw) translateY(14vh) scale(0.76);\n  }\n  25.9259259259% {\n    transform: translateX(7vw) translateY(-43vh) scale(0.32);\n  }\n  29.6296296296% {\n    transform: translateX(35vw) translateY(12vh) scale(0.96);\n  }\n  33.3333333333% {\n    transform: translateX(6vw) translateY(28vh) scale(0.51);\n  }\n  37.037037037% {\n    transform: translateX(-16vw) translateY(3vh) scale(0.88);\n  }\n  40.7407407407% {\n    transform: translateX(2vw) translateY(1vh) scale(0.88);\n  }\n  44.4444444444% {\n    transform: translateX(27vw) translateY(41vh) scale(0.7);\n  }\n  48.1481481481% {\n    transform: translateX(-5vw) translateY(-45vh) scale(0.88);\n  }\n  51.8518518519% {\n    transform: translateX(-34vw) translateY(5vh) scale(0.57);\n  }\n  55.5555555556% {\n    transform: translateX(-5vw) translateY(-9vh) scale(0.68);\n  }\n  59.2592592593% {\n    transform: translateX(26vw) translateY(-17vh) scale(0.26);\n  }\n  62.962962963% {\n    transform: translateX(-10vw) translateY(-41vh) scale(0.51);\n  }\n  66.6666666667% {\n    transform: translateX(-16vw) translateY(30vh) scale(0.26);\n  }\n  70.3703703704% {\n    transform: translateX(-17vw) translateY(-36vh) scale(0.34);\n  }\n  74.0740740741% {\n    transform: translateX(-26vw) translateY(16vh) scale(0.96);\n  }\n  77.7777777778% {\n    transform: translateX(-27vw) translateY(-3vh) scale(0.78);\n  }\n  81.4814814815% {\n    transform: translateX(4vw) translateY(17vh) scale(0.4);\n  }\n  85.1851851852% {\n    transform: translateX(-47vw) translateY(-41vh) scale(0.45);\n  }\n  88.8888888889% {\n    transform: translateX(-27vw) translateY(43vh) scale(1);\n  }\n  92.5925925926% {\n    transform: translateX(-1vw) translateY(33vh) scale(0.41);\n  }\n  96.2962962963% {\n    transform: translateX(15vw) translateY(28vh) scale(0.27);\n  }\n  100% {\n    transform: translateX(16vw) translateY(-13vh) scale(0.53);\n  }\n}\n.firefly:nth-child(14) {\n  animation-name: move14;\n}\n.firefly:nth-child(14)::before {\n  animation-duration: 9s;\n}\n.firefly:nth-child(14)::after {\n  animation-duration: 9s, 7770ms;\n  animation-delay: 0ms, 6216ms;\n}\n\n@keyframes move14 {\n  0% {\n    transform: translateX(-17vw) translateY(16vh) scale(0.86);\n  }\n  5.2631578947% {\n    transform: translateX(-20vw) translateY(-48vh) scale(0.56);\n  }\n  10.5263157895% {\n    transform: translateX(29vw) translateY(-11vh) scale(0.44);\n  }\n  15.7894736842% {\n    transform: translateX(26vw) translateY(45vh) scale(0.71);\n  }\n  21.0526315789% {\n    transform: translateX(14vw) translateY(46vh) scale(0.57);\n  }\n  26.3157894737% {\n    transform: translateX(-26vw) translateY(37vh) scale(0.46);\n  }\n  31.5789473684% {\n    transform: translateX(-25vw) translateY(26vh) scale(0.54);\n  }\n  36.8421052632% {\n    transform: translateX(37vw) translateY(33vh) scale(0.44);\n  }\n  42.1052631579% {\n    transform: translateX(30vw) translateY(-6vh) scale(0.41);\n  }\n  47.3684210526% {\n    transform: translateX(-46vw) translateY(36vh) scale(0.54);\n  }\n  52.6315789474% {\n    transform: translateX(7vw) translateY(4vh) scale(0.37);\n  }\n  57.8947368421% {\n    transform: translateX(48vw) translateY(-39vh) scale(0.76);\n  }\n  63.1578947368% {\n    transform: translateX(-48vw) translateY(-23vh) scale(0.59);\n  }\n  68.4210526316% {\n    transform: translateX(-47vw) translateY(27vh) scale(0.4);\n  }\n  73.6842105263% {\n    transform: translateX(-10vw) translateY(48vh) scale(0.32);\n  }\n  78.9473684211% {\n    transform: translateX(48vw) translateY(25vh) scale(0.82);\n  }\n  84.2105263158% {\n    transform: translateX(21vw) translateY(-43vh) scale(0.82);\n  }\n  89.4736842105% {\n    transform: translateX(35vw) translateY(4vh) scale(0.52);\n  }\n  94.7368421053% {\n    transform: translateX(-31vw) translateY(-11vh) scale(0.7);\n  }\n  100% {\n    transform: translateX(-37vw) translateY(23vh) scale(0.43);\n  }\n}\n.firefly:nth-child(15) {\n  animation-name: move15;\n}\n.firefly:nth-child(15)::before {\n  animation-duration: 17s;\n}\n.firefly:nth-child(15)::after {\n  animation-duration: 17s, 7258ms;\n  animation-delay: 0ms, 3731ms;\n}\n\n@keyframes move15 {\n  0% {\n    transform: translateX(-32vw) translateY(-45vh) scale(0.86);\n  }\n  5.8823529412% {\n    transform: translateX(-7vw) translateY(-30vh) scale(0.53);\n  }\n  11.7647058824% {\n    transform: translateX(46vw) translateY(42vh) scale(0.67);\n  }\n  17.6470588235% {\n    transform: translateX(20vw) translateY(41vh) scale(0.38);\n  }\n  23.5294117647% {\n    transform: translateX(-38vw) translateY(19vh) scale(0.42);\n  }\n  29.4117647059% {\n    transform: translateX(12vw) translateY(31vh) scale(0.8);\n  }\n  35.2941176471% {\n    transform: translateX(-4vw) translateY(31vh) scale(0.29);\n  }\n  41.1764705882% {\n    transform: translateX(-41vw) translateY(14vh) scale(0.5);\n  }\n  47.0588235294% {\n    transform: translateX(-26vw) translateY(-4vh) scale(0.97);\n  }\n  52.9411764706% {\n    transform: translateX(47vw) translateY(45vh) scale(0.55);\n  }\n  58.8235294118% {\n    transform: translateX(-45vw) translateY(-46vh) scale(0.27);\n  }\n  64.7058823529% {\n    transform: translateX(4vw) translateY(47vh) scale(0.89);\n  }\n  70.5882352941% {\n    transform: translateX(15vw) translateY(-19vh) scale(0.53);\n  }\n  76.4705882353% {\n    transform: translateX(-29vw) translateY(8vh) scale(0.33);\n  }\n  82.3529411765% {\n    transform: translateX(49vw) translateY(28vh) scale(0.54);\n  }\n  88.2352941176% {\n    transform: translateX(36vw) translateY(31vh) scale(0.42);\n  }\n  94.1176470588% {\n    transform: translateX(-1vw) translateY(-42vh) scale(0.57);\n  }\n  100% {\n    transform: translateX(40vw) translateY(37vh) scale(0.86);\n  }\n}\n@keyframes drift {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(360deg);\n  }\n}\n@keyframes flash {\n  0%, 30%, 100% {\n    opacity: 0;\n    box-shadow: 0 0 0vw 0vw rgb(240, 240, 229);\n  }\n  5% {\n    opacity: 1;\n    box-shadow: 0 0 2vw 0.4vw rgb(255, 255, 255);\n  }\n}", "",{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":";;AAEA,+BAA+B;;AAE/B;EACE,eAAe;EACf,SAAS;EACT,QAAQ;EACR,YAAY;EACZ,aAAa;EACb,wBAAwB;EACxB,uCAAuC;EACvC,oBAAoB;AACtB;AACA;EACE,WAAW;EACX,kBAAkB;EAClB,WAAW;EACX,YAAY;EACZ,kBAAkB;EAClB,uBAAuB;AACzB;AACA;EACE,8BAA8B;EAC9B,YAAY;EACZ,wCAAwC;AAC1C;AACA;EACE,iBAAiB;EACjB,UAAU;EACV,0CAA0C;EAC1C,6DAA6D;AAC/D;;AAEA;EACE,qBAAqB;AACvB;AACA;EACE,uBAAuB;AACzB;AACA;EACE,+BAA+B;EAC/B,4BAA4B;AAC9B;;AAEA;EACE;IACE,uDAAuD;EACzD;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,uDAAuD;EACzD;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,uDAAuD;EACzD;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,yDAAyD;EAC3D;AACF;AACA;EACE,qBAAqB;AACvB;AACA;EACE,uBAAuB;AACzB;AACA;EACE,+BAA+B;EAC/B,4BAA4B;AAC9B;;AAEA;EACE;IACE,yDAAyD;EAC3D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,uDAAuD;EACzD;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,uDAAuD;EACzD;EACA;IACE,uDAAuD;EACzD;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,uDAAuD;EACzD;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,uDAAuD;EACzD;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;AACF;AACA;EACE,qBAAqB;AACvB;AACA;EACE,uBAAuB;AACzB;AACA;EACE,+BAA+B;EAC/B,4BAA4B;AAC9B;;AAEA;EACE;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,uDAAuD;EACzD;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,uDAAuD;EACzD;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,qDAAqD;EACvD;EACA;IACE,uDAAuD;EACzD;AACF;AACA;EACE,qBAAqB;AACvB;AACA;EACE,uBAAuB;AACzB;AACA;EACE,+BAA+B;EAC/B,4BAA4B;AAC9B;;AAEA;EACE;IACE,yDAAyD;EAC3D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,uDAAuD;EACzD;EACA;IACE,uDAAuD;EACzD;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,0DAA0D;EAC5D;AACF;AACA;EACE,qBAAqB;AACvB;AACA;EACE,sBAAsB;AACxB;AACA;EACE,+BAA+B;EAC/B,4BAA4B;AAC9B;;AAEA;EACE;IACE,wDAAwD;EAC1D;EACA;IACE,uDAAuD;EACzD;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,uDAAuD;EACzD;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;AACF;AACA;EACE,qBAAqB;AACvB;AACA;EACE,sBAAsB;AACxB;AACA;EACE,8BAA8B;EAC9B,4BAA4B;AAC9B;;AAEA;EACE;IACE,0DAA0D;EAC5D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,uDAAuD;EACzD;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,uDAAuD;EACzD;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,uDAAuD;EACzD;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,yDAAyD;EAC3D;AACF;AACA;EACE,qBAAqB;AACvB;AACA;EACE,uBAAuB;AACzB;AACA;EACE,+BAA+B;EAC/B,4BAA4B;AAC9B;;AAEA;EACE;IACE,wDAAwD;EAC1D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,sDAAsD;EACxD;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;AACF;AACA;EACE,qBAAqB;AACvB;AACA;EACE,sBAAsB;AACxB;AACA;EACE,8BAA8B;EAC9B,4BAA4B;AAC9B;;AAEA;EACE;IACE,0DAA0D;EAC5D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,uDAAuD;EACzD;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;AACF;AACA;EACE,qBAAqB;AACvB;AACA;EACE,uBAAuB;AACzB;AACA;EACE,+BAA+B;EAC/B,4BAA4B;AAC9B;;AAEA;EACE;IACE,yDAAyD;EAC3D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,uDAAuD;EACzD;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,uDAAuD;EACzD;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;AACF;AACA;EACE,sBAAsB;AACxB;AACA;EACE,uBAAuB;AACzB;AACA;EACE,gCAAgC;EAChC,4BAA4B;AAC9B;;AAEA;EACE;IACE,wDAAwD;EAC1D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,uDAAuD;EACzD;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,uDAAuD;EACzD;EACA;IACE,sDAAsD;EACxD;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,sDAAsD;EACxD;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,wDAAwD;EAC1D;AACF;AACA;EACE,sBAAsB;AACxB;AACA;EACE,sBAAsB;AACxB;AACA;EACE,+BAA+B;EAC/B,4BAA4B;AAC9B;;AAEA;EACE;IACE,sDAAsD;EACxD;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,uDAAuD;EACzD;EACA;IACE,uDAAuD;EACzD;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,sDAAsD;EACxD;AACF;AACA;EACE,sBAAsB;AACxB;AACA;EACE,uBAAuB;AACzB;AACA;EACE,+BAA+B;EAC/B,4BAA4B;AAC9B;;AAEA;EACE;IACE,wDAAwD;EAC1D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,uDAAuD;EACzD;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,uDAAuD;EACzD;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,0DAA0D;EAC5D;AACF;AACA;EACE,sBAAsB;AACxB;AACA;EACE,uBAAuB;AACzB;AACA;EACE,+BAA+B;EAC/B,4BAA4B;AAC9B;;AAEA;EACE;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,uDAAuD;EACzD;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,uDAAuD;EACzD;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,sDAAsD;EACxD;EACA;IACE,uDAAuD;EACzD;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,sDAAsD;EACxD;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,sDAAsD;EACxD;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;AACF;AACA;EACE,sBAAsB;AACxB;AACA;EACE,sBAAsB;AACxB;AACA;EACE,8BAA8B;EAC9B,4BAA4B;AAC9B;;AAEA;EACE;IACE,yDAAyD;EAC3D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,sDAAsD;EACxD;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,uDAAuD;EACzD;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,yDAAyD;EAC3D;AACF;AACA;EACE,sBAAsB;AACxB;AACA;EACE,uBAAuB;AACzB;AACA;EACE,+BAA+B;EAC/B,4BAA4B;AAC9B;;AAEA;EACE;IACE,0DAA0D;EAC5D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,uDAAuD;EACzD;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,0DAA0D;EAC5D;EACA;IACE,uDAAuD;EACzD;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,wDAAwD;EAC1D;EACA;IACE,yDAAyD;EAC3D;EACA;IACE,wDAAwD;EAC1D;AACF;AACA;EACE;IACE,uBAAuB;EACzB;EACA;IACE,yBAAyB;EAC3B;AACF;AACA;EACE;IACE,UAAU;IACV,0CAA0C;EAC5C;EACA;IACE,UAAU;IACV,4CAA4C;EAC9C;AACF","sourcesContent":["\n\n/*FIREFLY BACKGROUND ANIMATION*/\n\n.firefly {\n  position: fixed;\n  left: 50%;\n  top: 50%;\n  width: 0.4vw;\n  height: 0.4vw;\n  margin: -0.2vw 0 0 9.8vw;\n  animation: ease 200s alternate infinite;\n  pointer-events: none;\n}\n.firefly::before, .firefly::after {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  border-radius: 50%;\n  transform-origin: -10vw;\n}\n.firefly::before {\n  background: rgb(255, 255, 255);\n  opacity: 0.4;\n  animation: drift ease alternate infinite;\n}\n.firefly::after {\n  background: white;\n  opacity: 0;\n  box-shadow: 0 0 0vw 0vw rgb(255, 255, 255);\n  animation: drift ease alternate infinite, flash ease infinite;\n}\n\n.firefly:nth-child(1) {\n  animation-name: move1;\n}\n.firefly:nth-child(1)::before {\n  animation-duration: 13s;\n}\n.firefly:nth-child(1)::after {\n  animation-duration: 13s, 5023ms;\n  animation-delay: 0ms, 5375ms;\n}\n\n@keyframes move1 {\n  0% {\n    transform: translateX(37vw) translateY(5vh) scale(0.73);\n  }\n  5% {\n    transform: translateX(33vw) translateY(-5vh) scale(0.76);\n  }\n  10% {\n    transform: translateX(-49vw) translateY(-40vh) scale(0.91);\n  }\n  15% {\n    transform: translateX(13vw) translateY(39vh) scale(0.77);\n  }\n  20% {\n    transform: translateX(36vw) translateY(40vh) scale(0.85);\n  }\n  25% {\n    transform: translateX(-27vw) translateY(28vh) scale(0.4);\n  }\n  30% {\n    transform: translateX(27vw) translateY(-5vh) scale(0.42);\n  }\n  35% {\n    transform: translateX(-2vw) translateY(-45vh) scale(0.85);\n  }\n  40% {\n    transform: translateX(-32vw) translateY(13vh) scale(0.79);\n  }\n  45% {\n    transform: translateX(-42vw) translateY(-40vh) scale(0.89);\n  }\n  50% {\n    transform: translateX(8vw) translateY(47vh) scale(0.92);\n  }\n  55% {\n    transform: translateX(-6vw) translateY(-23vh) scale(0.39);\n  }\n  60% {\n    transform: translateX(44vw) translateY(10vh) scale(0.43);\n  }\n  65% {\n    transform: translateX(43vw) translateY(17vh) scale(0.81);\n  }\n  70% {\n    transform: translateX(-23vw) translateY(36vh) scale(0.62);\n  }\n  75% {\n    transform: translateX(-31vw) translateY(0vh) scale(0.82);\n  }\n  80% {\n    transform: translateX(24vw) translateY(-49vh) scale(0.41);\n  }\n  85% {\n    transform: translateX(26vw) translateY(-14vh) scale(0.66);\n  }\n  90% {\n    transform: translateX(48vw) translateY(8vh) scale(0.82);\n  }\n  95% {\n    transform: translateX(-27vw) translateY(-15vh) scale(0.46);\n  }\n  100% {\n    transform: translateX(-20vw) translateY(10vh) scale(0.65);\n  }\n}\n.firefly:nth-child(2) {\n  animation-name: move2;\n}\n.firefly:nth-child(2)::before {\n  animation-duration: 17s;\n}\n.firefly:nth-child(2)::after {\n  animation-duration: 17s, 6755ms;\n  animation-delay: 0ms, 4182ms;\n}\n\n@keyframes move2 {\n  0% {\n    transform: translateX(-26vw) translateY(35vh) scale(0.83);\n  }\n  3.5714285714% {\n    transform: translateX(-12vw) translateY(-14vh) scale(0.61);\n  }\n  7.1428571429% {\n    transform: translateX(29vw) translateY(-18vh) scale(0.8);\n  }\n  10.7142857143% {\n    transform: translateX(26vw) translateY(-36vh) scale(0.8);\n  }\n  14.2857142857% {\n    transform: translateX(-33vw) translateY(-36vh) scale(0.39);\n  }\n  17.8571428571% {\n    transform: translateX(0vw) translateY(-44vh) scale(0.51);\n  }\n  21.4285714286% {\n    transform: translateX(27vw) translateY(7vh) scale(0.42);\n  }\n  25% {\n    transform: translateX(5vw) translateY(-31vh) scale(0.37);\n  }\n  28.5714285714% {\n    transform: translateX(12vw) translateY(4vh) scale(0.86);\n  }\n  32.1428571429% {\n    transform: translateX(14vw) translateY(16vh) scale(0.7);\n  }\n  35.7142857143% {\n    transform: translateX(-34vw) translateY(36vh) scale(0.59);\n  }\n  39.2857142857% {\n    transform: translateX(-22vw) translateY(-46vh) scale(0.89);\n  }\n  42.8571428571% {\n    transform: translateX(-22vw) translateY(-22vh) scale(0.65);\n  }\n  46.4285714286% {\n    transform: translateX(39vw) translateY(-8vh) scale(0.6);\n  }\n  50% {\n    transform: translateX(37vw) translateY(47vh) scale(0.77);\n  }\n  53.5714285714% {\n    transform: translateX(46vw) translateY(-49vh) scale(0.91);\n  }\n  57.1428571429% {\n    transform: translateX(-32vw) translateY(-12vh) scale(0.87);\n  }\n  60.7142857143% {\n    transform: translateX(-13vw) translateY(-27vh) scale(0.7);\n  }\n  64.2857142857% {\n    transform: translateX(-19vw) translateY(25vh) scale(0.59);\n  }\n  67.8571428571% {\n    transform: translateX(-30vw) translateY(6vh) scale(0.31);\n  }\n  71.4285714286% {\n    transform: translateX(38vw) translateY(46vh) scale(0.58);\n  }\n  75% {\n    transform: translateX(14vw) translateY(-33vh) scale(0.26);\n  }\n  78.5714285714% {\n    transform: translateX(-17vw) translateY(-17vh) scale(0.26);\n  }\n  82.1428571429% {\n    transform: translateX(19vw) translateY(49vh) scale(0.28);\n  }\n  85.7142857143% {\n    transform: translateX(36vw) translateY(47vh) scale(0.31);\n  }\n  89.2857142857% {\n    transform: translateX(6vw) translateY(39vh) scale(0.56);\n  }\n  92.8571428571% {\n    transform: translateX(13vw) translateY(39vh) scale(0.79);\n  }\n  96.4285714286% {\n    transform: translateX(-37vw) translateY(39vh) scale(0.98);\n  }\n  100% {\n    transform: translateX(31vw) translateY(36vh) scale(0.29);\n  }\n}\n.firefly:nth-child(3) {\n  animation-name: move3;\n}\n.firefly:nth-child(3)::before {\n  animation-duration: 16s;\n}\n.firefly:nth-child(3)::after {\n  animation-duration: 16s, 9291ms;\n  animation-delay: 0ms, 7952ms;\n}\n\n@keyframes move3 {\n  0% {\n    transform: translateX(27vw) translateY(15vh) scale(0.47);\n  }\n  4.347826087% {\n    transform: translateX(-15vw) translateY(25vh) scale(0.44);\n  }\n  8.6956521739% {\n    transform: translateX(-31vw) translateY(-39vh) scale(0.43);\n  }\n  13.0434782609% {\n    transform: translateX(-1vw) translateY(15vh) scale(0.94);\n  }\n  17.3913043478% {\n    transform: translateX(-19vw) translateY(-34vh) scale(0.64);\n  }\n  21.7391304348% {\n    transform: translateX(46vw) translateY(-20vh) scale(0.85);\n  }\n  26.0869565217% {\n    transform: translateX(28vw) translateY(-2vh) scale(0.34);\n  }\n  30.4347826087% {\n    transform: translateX(41vw) translateY(-30vh) scale(0.86);\n  }\n  34.7826086957% {\n    transform: translateX(27vw) translateY(-2vh) scale(0.5);\n  }\n  39.1304347826% {\n    transform: translateX(-33vw) translateY(-47vh) scale(0.75);\n  }\n  43.4782608696% {\n    transform: translateX(-37vw) translateY(-17vh) scale(0.53);\n  }\n  47.8260869565% {\n    transform: translateX(-31vw) translateY(-35vh) scale(0.9);\n  }\n  52.1739130435% {\n    transform: translateX(2vw) translateY(-30vh) scale(0.67);\n  }\n  56.5217391304% {\n    transform: translateX(-2vw) translateY(-12vh) scale(0.71);\n  }\n  60.8695652174% {\n    transform: translateX(46vw) translateY(-40vh) scale(0.48);\n  }\n  65.2173913043% {\n    transform: translateX(-23vw) translateY(-29vh) scale(0.29);\n  }\n  69.5652173913% {\n    transform: translateX(-21vw) translateY(-31vh) scale(0.28);\n  }\n  73.9130434783% {\n    transform: translateX(-48vw) translateY(49vh) scale(0.48);\n  }\n  78.2608695652% {\n    transform: translateX(12vw) translateY(21vh) scale(0.47);\n  }\n  82.6086956522% {\n    transform: translateX(40vw) translateY(8vh) scale(0.36);\n  }\n  86.9565217391% {\n    transform: translateX(-17vw) translateY(25vh) scale(0.76);\n  }\n  91.3043478261% {\n    transform: translateX(-10vw) translateY(-2vh) scale(0.44);\n  }\n  95.652173913% {\n    transform: translateX(50vw) translateY(37vh) scale(1);\n  }\n  100% {\n    transform: translateX(8vw) translateY(49vh) scale(0.63);\n  }\n}\n.firefly:nth-child(4) {\n  animation-name: move4;\n}\n.firefly:nth-child(4)::before {\n  animation-duration: 16s;\n}\n.firefly:nth-child(4)::after {\n  animation-duration: 16s, 7108ms;\n  animation-delay: 0ms, 4483ms;\n}\n\n@keyframes move4 {\n  0% {\n    transform: translateX(44vw) translateY(-33vh) scale(0.56);\n  }\n  3.7037037037% {\n    transform: translateX(-35vw) translateY(-32vh) scale(0.77);\n  }\n  7.4074074074% {\n    transform: translateX(0vw) translateY(-46vh) scale(0.79);\n  }\n  11.1111111111% {\n    transform: translateX(49vw) translateY(-17vh) scale(0.91);\n  }\n  14.8148148148% {\n    transform: translateX(-11vw) translateY(46vh) scale(0.7);\n  }\n  18.5185185185% {\n    transform: translateX(-6vw) translateY(-43vh) scale(0.61);\n  }\n  22.2222222222% {\n    transform: translateX(-11vw) translateY(22vh) scale(0.47);\n  }\n  25.9259259259% {\n    transform: translateX(43vw) translateY(20vh) scale(0.34);\n  }\n  29.6296296296% {\n    transform: translateX(-20vw) translateY(11vh) scale(0.55);\n  }\n  33.3333333333% {\n    transform: translateX(-49vw) translateY(-6vh) scale(0.51);\n  }\n  37.037037037% {\n    transform: translateX(-2vw) translateY(43vh) scale(0.89);\n  }\n  40.7407407407% {\n    transform: translateX(-36vw) translateY(-49vh) scale(0.74);\n  }\n  44.4444444444% {\n    transform: translateX(47vw) translateY(3vh) scale(0.49);\n  }\n  48.1481481481% {\n    transform: translateX(6vw) translateY(-4vh) scale(0.56);\n  }\n  51.8518518519% {\n    transform: translateX(48vw) translateY(23vh) scale(0.35);\n  }\n  55.5555555556% {\n    transform: translateX(-48vw) translateY(21vh) scale(0.37);\n  }\n  59.2592592593% {\n    transform: translateX(36vw) translateY(12vh) scale(0.56);\n  }\n  62.962962963% {\n    transform: translateX(31vw) translateY(13vh) scale(0.43);\n  }\n  66.6666666667% {\n    transform: translateX(42vw) translateY(-32vh) scale(0.56);\n  }\n  70.3703703704% {\n    transform: translateX(13vw) translateY(10vh) scale(0.95);\n  }\n  74.0740740741% {\n    transform: translateX(-19vw) translateY(-13vh) scale(0.46);\n  }\n  77.7777777778% {\n    transform: translateX(22vw) translateY(19vh) scale(0.46);\n  }\n  81.4814814815% {\n    transform: translateX(29vw) translateY(-33vh) scale(0.74);\n  }\n  85.1851851852% {\n    transform: translateX(14vw) translateY(-32vh) scale(0.91);\n  }\n  88.8888888889% {\n    transform: translateX(15vw) translateY(-3vh) scale(0.37);\n  }\n  92.5925925926% {\n    transform: translateX(-25vw) translateY(25vh) scale(0.81);\n  }\n  96.2962962963% {\n    transform: translateX(48vw) translateY(-7vh) scale(0.62);\n  }\n  100% {\n    transform: translateX(-36vw) translateY(-45vh) scale(0.58);\n  }\n}\n.firefly:nth-child(5) {\n  animation-name: move5;\n}\n.firefly:nth-child(5)::before {\n  animation-duration: 9s;\n}\n.firefly:nth-child(5)::after {\n  animation-duration: 9s, 10883ms;\n  animation-delay: 0ms, 6806ms;\n}\n\n@keyframes move5 {\n  0% {\n    transform: translateX(11vw) translateY(32vh) scale(0.51);\n  }\n  5% {\n    transform: translateX(9vw) translateY(26vh) scale(0.54);\n  }\n  10% {\n    transform: translateX(11vw) translateY(-6vh) scale(0.41);\n  }\n  15% {\n    transform: translateX(31vw) translateY(-29vh) scale(0.61);\n  }\n  20% {\n    transform: translateX(24vw) translateY(6vh) scale(0.59);\n  }\n  25% {\n    transform: translateX(-21vw) translateY(-46vh) scale(0.35);\n  }\n  30% {\n    transform: translateX(-21vw) translateY(-18vh) scale(0.52);\n  }\n  35% {\n    transform: translateX(-46vw) translateY(46vh) scale(0.67);\n  }\n  40% {\n    transform: translateX(36vw) translateY(-16vh) scale(0.92);\n  }\n  45% {\n    transform: translateX(-37vw) translateY(-21vh) scale(0.69);\n  }\n  50% {\n    transform: translateX(-44vw) translateY(24vh) scale(0.38);\n  }\n  55% {\n    transform: translateX(-13vw) translateY(-47vh) scale(0.74);\n  }\n  60% {\n    transform: translateX(35vw) translateY(-36vh) scale(0.7);\n  }\n  65% {\n    transform: translateX(11vw) translateY(28vh) scale(0.34);\n  }\n  70% {\n    transform: translateX(-13vw) translateY(36vh) scale(0.36);\n  }\n  75% {\n    transform: translateX(19vw) translateY(38vh) scale(0.72);\n  }\n  80% {\n    transform: translateX(-32vw) translateY(41vh) scale(0.73);\n  }\n  85% {\n    transform: translateX(20vw) translateY(-39vh) scale(0.52);\n  }\n  90% {\n    transform: translateX(-1vw) translateY(-3vh) scale(0.38);\n  }\n  95% {\n    transform: translateX(35vw) translateY(-25vh) scale(0.75);\n  }\n  100% {\n    transform: translateX(21vw) translateY(45vh) scale(0.42);\n  }\n}\n.firefly:nth-child(6) {\n  animation-name: move6;\n}\n.firefly:nth-child(6)::before {\n  animation-duration: 9s;\n}\n.firefly:nth-child(6)::after {\n  animation-duration: 9s, 9340ms;\n  animation-delay: 0ms, 2170ms;\n}\n\n@keyframes move6 {\n  0% {\n    transform: translateX(-27vw) translateY(-31vh) scale(0.42);\n  }\n  4% {\n    transform: translateX(-46vw) translateY(-48vh) scale(0.93);\n  }\n  8% {\n    transform: translateX(-14vw) translateY(8vh) scale(0.42);\n  }\n  12% {\n    transform: translateX(48vw) translateY(7vh) scale(0.71);\n  }\n  16% {\n    transform: translateX(-23vw) translateY(-2vh) scale(0.81);\n  }\n  20% {\n    transform: translateX(31vw) translateY(15vh) scale(0.56);\n  }\n  24% {\n    transform: translateX(32vw) translateY(-18vh) scale(0.5);\n  }\n  28% {\n    transform: translateX(42vw) translateY(28vh) scale(0.66);\n  }\n  32% {\n    transform: translateX(-32vw) translateY(-39vh) scale(0.65);\n  }\n  36% {\n    transform: translateX(-22vw) translateY(40vh) scale(0.61);\n  }\n  40% {\n    transform: translateX(-6vw) translateY(-13vh) scale(0.94);\n  }\n  44% {\n    transform: translateX(44vw) translateY(44vh) scale(0.5);\n  }\n  48% {\n    transform: translateX(40vw) translateY(-29vh) scale(0.34);\n  }\n  52% {\n    transform: translateX(-25vw) translateY(6vh) scale(0.84);\n  }\n  56% {\n    transform: translateX(-10vw) translateY(-6vh) scale(0.84);\n  }\n  60% {\n    transform: translateX(-14vw) translateY(-44vh) scale(0.56);\n  }\n  64% {\n    transform: translateX(-4vw) translateY(-40vh) scale(0.6);\n  }\n  68% {\n    transform: translateX(9vw) translateY(-17vh) scale(0.29);\n  }\n  72% {\n    transform: translateX(-30vw) translateY(-6vh) scale(0.75);\n  }\n  76% {\n    transform: translateX(30vw) translateY(7vh) scale(0.46);\n  }\n  80% {\n    transform: translateX(-48vw) translateY(22vh) scale(0.36);\n  }\n  84% {\n    transform: translateX(43vw) translateY(-39vh) scale(0.97);\n  }\n  88% {\n    transform: translateX(-47vw) translateY(35vh) scale(0.45);\n  }\n  92% {\n    transform: translateX(-32vw) translateY(-18vh) scale(0.31);\n  }\n  96% {\n    transform: translateX(-42vw) translateY(-26vh) scale(0.56);\n  }\n  100% {\n    transform: translateX(-47vw) translateY(39vh) scale(0.95);\n  }\n}\n.firefly:nth-child(7) {\n  animation-name: move7;\n}\n.firefly:nth-child(7)::before {\n  animation-duration: 12s;\n}\n.firefly:nth-child(7)::after {\n  animation-duration: 12s, 9330ms;\n  animation-delay: 0ms, 1270ms;\n}\n\n@keyframes move7 {\n  0% {\n    transform: translateX(28vw) translateY(34vh) scale(0.58);\n  }\n  4.5454545455% {\n    transform: translateX(-5vw) translateY(45vh) scale(0.47);\n  }\n  9.0909090909% {\n    transform: translateX(-2vw) translateY(-34vh) scale(0.57);\n  }\n  13.6363636364% {\n    transform: translateX(19vw) translateY(29vh) scale(0.46);\n  }\n  18.1818181818% {\n    transform: translateX(-37vw) translateY(43vh) scale(0.61);\n  }\n  22.7272727273% {\n    transform: translateX(26vw) translateY(17vh) scale(0.59);\n  }\n  27.2727272727% {\n    transform: translateX(-49vw) translateY(-24vh) scale(0.26);\n  }\n  31.8181818182% {\n    transform: translateX(-4vw) translateY(-34vh) scale(0.91);\n  }\n  36.3636363636% {\n    transform: translateX(-34vw) translateY(-7vh) scale(0.48);\n  }\n  40.9090909091% {\n    transform: translateX(-40vw) translateY(-36vh) scale(0.3);\n  }\n  45.4545454545% {\n    transform: translateX(29vw) translateY(-35vh) scale(0.97);\n  }\n  50% {\n    transform: translateX(12vw) translateY(-5vh) scale(0.45);\n  }\n  54.5454545455% {\n    transform: translateX(25vw) translateY(-21vh) scale(0.88);\n  }\n  59.0909090909% {\n    transform: translateX(25vw) translateY(50vh) scale(0.83);\n  }\n  63.6363636364% {\n    transform: translateX(23vw) translateY(-40vh) scale(0.61);\n  }\n  68.1818181818% {\n    transform: translateX(40vw) translateY(8vh) scale(0.7);\n  }\n  72.7272727273% {\n    transform: translateX(-26vw) translateY(-43vh) scale(0.61);\n  }\n  77.2727272727% {\n    transform: translateX(-29vw) translateY(24vh) scale(0.83);\n  }\n  81.8181818182% {\n    transform: translateX(13vw) translateY(-28vh) scale(0.69);\n  }\n  86.3636363636% {\n    transform: translateX(22vw) translateY(-40vh) scale(0.44);\n  }\n  90.9090909091% {\n    transform: translateX(-8vw) translateY(-44vh) scale(0.75);\n  }\n  95.4545454545% {\n    transform: translateX(-29vw) translateY(41vh) scale(0.77);\n  }\n  100% {\n    transform: translateX(-13vw) translateY(16vh) scale(0.71);\n  }\n}\n.firefly:nth-child(8) {\n  animation-name: move8;\n}\n.firefly:nth-child(8)::before {\n  animation-duration: 9s;\n}\n.firefly:nth-child(8)::after {\n  animation-duration: 9s, 9951ms;\n  animation-delay: 0ms, 7203ms;\n}\n\n@keyframes move8 {\n  0% {\n    transform: translateX(-21vw) translateY(-35vh) scale(0.26);\n  }\n  5.8823529412% {\n    transform: translateX(-47vw) translateY(-33vh) scale(0.58);\n  }\n  11.7647058824% {\n    transform: translateX(42vw) translateY(-31vh) scale(0.62);\n  }\n  17.6470588235% {\n    transform: translateX(-17vw) translateY(-32vh) scale(0.8);\n  }\n  23.5294117647% {\n    transform: translateX(-36vw) translateY(-11vh) scale(0.33);\n  }\n  29.4117647059% {\n    transform: translateX(-25vw) translateY(19vh) scale(0.58);\n  }\n  35.2941176471% {\n    transform: translateX(-1vw) translateY(37vh) scale(0.48);\n  }\n  41.1764705882% {\n    transform: translateX(47vw) translateY(-44vh) scale(0.73);\n  }\n  47.0588235294% {\n    transform: translateX(-19vw) translateY(14vh) scale(0.45);\n  }\n  52.9411764706% {\n    transform: translateX(27vw) translateY(3vh) scale(0.26);\n  }\n  58.8235294118% {\n    transform: translateX(44vw) translateY(-34vh) scale(0.39);\n  }\n  64.7058823529% {\n    transform: translateX(-9vw) translateY(-44vh) scale(0.73);\n  }\n  70.5882352941% {\n    transform: translateX(-47vw) translateY(32vh) scale(0.8);\n  }\n  76.4705882353% {\n    transform: translateX(20vw) translateY(-19vh) scale(0.78);\n  }\n  82.3529411765% {\n    transform: translateX(27vw) translateY(25vh) scale(0.68);\n  }\n  88.2352941176% {\n    transform: translateX(-9vw) translateY(-26vh) scale(0.6);\n  }\n  94.1176470588% {\n    transform: translateX(-44vw) translateY(33vh) scale(0.72);\n  }\n  100% {\n    transform: translateX(41vw) translateY(-48vh) scale(0.84);\n  }\n}\n.firefly:nth-child(9) {\n  animation-name: move9;\n}\n.firefly:nth-child(9)::before {\n  animation-duration: 13s;\n}\n.firefly:nth-child(9)::after {\n  animation-duration: 13s, 8704ms;\n  animation-delay: 0ms, 1154ms;\n}\n\n@keyframes move9 {\n  0% {\n    transform: translateX(-30vw) translateY(47vh) scale(0.69);\n  }\n  5.5555555556% {\n    transform: translateX(-25vw) translateY(-42vh) scale(0.47);\n  }\n  11.1111111111% {\n    transform: translateX(-40vw) translateY(-2vh) scale(0.62);\n  }\n  16.6666666667% {\n    transform: translateX(-36vw) translateY(5vh) scale(0.37);\n  }\n  22.2222222222% {\n    transform: translateX(31vw) translateY(-13vh) scale(0.57);\n  }\n  27.7777777778% {\n    transform: translateX(44vw) translateY(-20vh) scale(0.91);\n  }\n  33.3333333333% {\n    transform: translateX(33vw) translateY(11vh) scale(0.69);\n  }\n  38.8888888889% {\n    transform: translateX(5vw) translateY(-35vh) scale(0.41);\n  }\n  44.4444444444% {\n    transform: translateX(-15vw) translateY(30vh) scale(0.36);\n  }\n  50% {\n    transform: translateX(-23vw) translateY(-28vh) scale(1);\n  }\n  55.5555555556% {\n    transform: translateX(-11vw) translateY(10vh) scale(0.97);\n  }\n  61.1111111111% {\n    transform: translateX(-27vw) translateY(29vh) scale(0.32);\n  }\n  66.6666666667% {\n    transform: translateX(-33vw) translateY(-31vh) scale(0.68);\n  }\n  72.2222222222% {\n    transform: translateX(-9vw) translateY(-27vh) scale(0.93);\n  }\n  77.7777777778% {\n    transform: translateX(-10vw) translateY(-3vh) scale(0.61);\n  }\n  83.3333333333% {\n    transform: translateX(25vw) translateY(-17vh) scale(0.85);\n  }\n  88.8888888889% {\n    transform: translateX(8vw) translateY(36vh) scale(0.88);\n  }\n  94.4444444444% {\n    transform: translateX(15vw) translateY(28vh) scale(0.77);\n  }\n  100% {\n    transform: translateX(-29vw) translateY(34vh) scale(0.61);\n  }\n}\n.firefly:nth-child(10) {\n  animation-name: move10;\n}\n.firefly:nth-child(10)::before {\n  animation-duration: 18s;\n}\n.firefly:nth-child(10)::after {\n  animation-duration: 18s, 10039ms;\n  animation-delay: 0ms, 8086ms;\n}\n\n@keyframes move10 {\n  0% {\n    transform: translateX(28vw) translateY(28vh) scale(0.63);\n  }\n  3.8461538462% {\n    transform: translateX(13vw) translateY(30vh) scale(0.91);\n  }\n  7.6923076923% {\n    transform: translateX(18vw) translateY(5vh) scale(0.47);\n  }\n  11.5384615385% {\n    transform: translateX(38vw) translateY(-37vh) scale(0.9);\n  }\n  15.3846153846% {\n    transform: translateX(43vw) translateY(2vh) scale(0.34);\n  }\n  19.2307692308% {\n    transform: translateX(-39vw) translateY(38vh) scale(1);\n  }\n  23.0769230769% {\n    transform: translateX(-24vw) translateY(36vh) scale(0.4);\n  }\n  26.9230769231% {\n    transform: translateX(39vw) translateY(-39vh) scale(0.98);\n  }\n  30.7692307692% {\n    transform: translateX(-29vw) translateY(-4vh) scale(0.3);\n  }\n  34.6153846154% {\n    transform: translateX(38vw) translateY(-33vh) scale(0.59);\n  }\n  38.4615384615% {\n    transform: translateX(37vw) translateY(-31vh) scale(0.95);\n  }\n  42.3076923077% {\n    transform: translateX(18vw) translateY(31vh) scale(0.73);\n  }\n  46.1538461538% {\n    transform: translateX(-45vw) translateY(8vh) scale(0.43);\n  }\n  50% {\n    transform: translateX(-19vw) translateY(-27vh) scale(0.39);\n  }\n  53.8461538462% {\n    transform: translateX(33vw) translateY(-12vh) scale(0.96);\n  }\n  57.6923076923% {\n    transform: translateX(-36vw) translateY(14vh) scale(1);\n  }\n  61.5384615385% {\n    transform: translateX(14vw) translateY(-15vh) scale(0.56);\n  }\n  65.3846153846% {\n    transform: translateX(-18vw) translateY(28vh) scale(0.65);\n  }\n  69.2307692308% {\n    transform: translateX(-13vw) translateY(0vh) scale(0.76);\n  }\n  73.0769230769% {\n    transform: translateX(-33vw) translateY(-38vh) scale(0.61);\n  }\n  76.9230769231% {\n    transform: translateX(28vw) translateY(-32vh) scale(0.87);\n  }\n  80.7692307692% {\n    transform: translateX(29vw) translateY(-48vh) scale(0.33);\n  }\n  84.6153846154% {\n    transform: translateX(-20vw) translateY(-13vh) scale(0.65);\n  }\n  88.4615384615% {\n    transform: translateX(6vw) translateY(-48vh) scale(0.84);\n  }\n  92.3076923077% {\n    transform: translateX(48vw) translateY(30vh) scale(0.65);\n  }\n  96.1538461538% {\n    transform: translateX(7vw) translateY(-22vh) scale(0.58);\n  }\n  100% {\n    transform: translateX(44vw) translateY(15vh) scale(0.42);\n  }\n}\n.firefly:nth-child(11) {\n  animation-name: move11;\n}\n.firefly:nth-child(11)::before {\n  animation-duration: 9s;\n}\n.firefly:nth-child(11)::after {\n  animation-duration: 9s, 10855ms;\n  animation-delay: 0ms, 2494ms;\n}\n\n@keyframes move11 {\n  0% {\n    transform: translateX(-27vw) translateY(38vh) scale(1);\n  }\n  4.5454545455% {\n    transform: translateX(-27vw) translateY(-31vh) scale(0.8);\n  }\n  9.0909090909% {\n    transform: translateX(49vw) translateY(-39vh) scale(0.83);\n  }\n  13.6363636364% {\n    transform: translateX(-26vw) translateY(-31vh) scale(0.89);\n  }\n  18.1818181818% {\n    transform: translateX(43vw) translateY(14vh) scale(0.77);\n  }\n  22.7272727273% {\n    transform: translateX(21vw) translateY(47vh) scale(0.7);\n  }\n  27.2727272727% {\n    transform: translateX(-6vw) translateY(1vh) scale(0.87);\n  }\n  31.8181818182% {\n    transform: translateX(-22vw) translateY(45vh) scale(0.79);\n  }\n  36.3636363636% {\n    transform: translateX(33vw) translateY(41vh) scale(0.65);\n  }\n  40.9090909091% {\n    transform: translateX(-27vw) translateY(-15vh) scale(0.44);\n  }\n  45.4545454545% {\n    transform: translateX(-21vw) translateY(20vh) scale(0.68);\n  }\n  50% {\n    transform: translateX(-18vw) translateY(31vh) scale(0.99);\n  }\n  54.5454545455% {\n    transform: translateX(-36vw) translateY(-36vh) scale(0.31);\n  }\n  59.0909090909% {\n    transform: translateX(17vw) translateY(35vh) scale(0.83);\n  }\n  63.6363636364% {\n    transform: translateX(-45vw) translateY(-26vh) scale(0.8);\n  }\n  68.1818181818% {\n    transform: translateX(48vw) translateY(35vh) scale(0.95);\n  }\n  72.7272727273% {\n    transform: translateX(-45vw) translateY(-48vh) scale(0.3);\n  }\n  77.2727272727% {\n    transform: translateX(-42vw) translateY(-10vh) scale(0.85);\n  }\n  81.8181818182% {\n    transform: translateX(7vw) translateY(-13vh) scale(0.56);\n  }\n  86.3636363636% {\n    transform: translateX(-28vw) translateY(45vh) scale(0.29);\n  }\n  90.9090909091% {\n    transform: translateX(-9vw) translateY(-20vh) scale(0.7);\n  }\n  95.4545454545% {\n    transform: translateX(11vw) translateY(-49vh) scale(0.68);\n  }\n  100% {\n    transform: translateX(21vw) translateY(-11vh) scale(1);\n  }\n}\n.firefly:nth-child(12) {\n  animation-name: move12;\n}\n.firefly:nth-child(12)::before {\n  animation-duration: 12s;\n}\n.firefly:nth-child(12)::after {\n  animation-duration: 12s, 7138ms;\n  animation-delay: 0ms, 5713ms;\n}\n\n@keyframes move12 {\n  0% {\n    transform: translateX(36vw) translateY(-17vh) scale(0.6);\n  }\n  4% {\n    transform: translateX(40vw) translateY(12vh) scale(0.44);\n  }\n  8% {\n    transform: translateX(-39vw) translateY(19vh) scale(0.78);\n  }\n  12% {\n    transform: translateX(-10vw) translateY(-27vh) scale(0.53);\n  }\n  16% {\n    transform: translateX(-26vw) translateY(37vh) scale(0.96);\n  }\n  20% {\n    transform: translateX(-36vw) translateY(-2vh) scale(0.34);\n  }\n  24% {\n    transform: translateX(-16vw) translateY(23vh) scale(0.97);\n  }\n  28% {\n    transform: translateX(11vw) translateY(9vh) scale(0.82);\n  }\n  32% {\n    transform: translateX(14vw) translateY(25vh) scale(0.76);\n  }\n  36% {\n    transform: translateX(-27vw) translateY(11vh) scale(0.86);\n  }\n  40% {\n    transform: translateX(-19vw) translateY(34vh) scale(0.82);\n  }\n  44% {\n    transform: translateX(27vw) translateY(29vh) scale(0.82);\n  }\n  48% {\n    transform: translateX(15vw) translateY(-49vh) scale(0.31);\n  }\n  52% {\n    transform: translateX(11vw) translateY(-16vh) scale(0.96);\n  }\n  56% {\n    transform: translateX(-39vw) translateY(50vh) scale(0.51);\n  }\n  60% {\n    transform: translateX(35vw) translateY(-32vh) scale(0.86);\n  }\n  64% {\n    transform: translateX(-23vw) translateY(-21vh) scale(0.32);\n  }\n  68% {\n    transform: translateX(47vw) translateY(24vh) scale(0.55);\n  }\n  72% {\n    transform: translateX(31vw) translateY(41vh) scale(0.7);\n  }\n  76% {\n    transform: translateX(-10vw) translateY(1vh) scale(0.66);\n  }\n  80% {\n    transform: translateX(-16vw) translateY(-47vh) scale(0.43);\n  }\n  84% {\n    transform: translateX(39vw) translateY(12vh) scale(0.84);\n  }\n  88% {\n    transform: translateX(-25vw) translateY(-19vh) scale(0.45);\n  }\n  92% {\n    transform: translateX(31vw) translateY(22vh) scale(0.97);\n  }\n  96% {\n    transform: translateX(-15vw) translateY(26vh) scale(0.44);\n  }\n  100% {\n    transform: translateX(-30vw) translateY(-38vh) scale(0.43);\n  }\n}\n.firefly:nth-child(13) {\n  animation-name: move13;\n}\n.firefly:nth-child(13)::before {\n  animation-duration: 15s;\n}\n.firefly:nth-child(13)::after {\n  animation-duration: 15s, 9282ms;\n  animation-delay: 0ms, 4458ms;\n}\n\n@keyframes move13 {\n  0% {\n    transform: translateX(6vw) translateY(-35vh) scale(0.99);\n  }\n  3.7037037037% {\n    transform: translateX(-22vw) translateY(31vh) scale(0.27);\n  }\n  7.4074074074% {\n    transform: translateX(19vw) translateY(-43vh) scale(0.82);\n  }\n  11.1111111111% {\n    transform: translateX(16vw) translateY(-27vh) scale(0.81);\n  }\n  14.8148148148% {\n    transform: translateX(7vw) translateY(-22vh) scale(0.88);\n  }\n  18.5185185185% {\n    transform: translateX(-34vw) translateY(-18vh) scale(1);\n  }\n  22.2222222222% {\n    transform: translateX(-31vw) translateY(14vh) scale(0.76);\n  }\n  25.9259259259% {\n    transform: translateX(7vw) translateY(-43vh) scale(0.32);\n  }\n  29.6296296296% {\n    transform: translateX(35vw) translateY(12vh) scale(0.96);\n  }\n  33.3333333333% {\n    transform: translateX(6vw) translateY(28vh) scale(0.51);\n  }\n  37.037037037% {\n    transform: translateX(-16vw) translateY(3vh) scale(0.88);\n  }\n  40.7407407407% {\n    transform: translateX(2vw) translateY(1vh) scale(0.88);\n  }\n  44.4444444444% {\n    transform: translateX(27vw) translateY(41vh) scale(0.7);\n  }\n  48.1481481481% {\n    transform: translateX(-5vw) translateY(-45vh) scale(0.88);\n  }\n  51.8518518519% {\n    transform: translateX(-34vw) translateY(5vh) scale(0.57);\n  }\n  55.5555555556% {\n    transform: translateX(-5vw) translateY(-9vh) scale(0.68);\n  }\n  59.2592592593% {\n    transform: translateX(26vw) translateY(-17vh) scale(0.26);\n  }\n  62.962962963% {\n    transform: translateX(-10vw) translateY(-41vh) scale(0.51);\n  }\n  66.6666666667% {\n    transform: translateX(-16vw) translateY(30vh) scale(0.26);\n  }\n  70.3703703704% {\n    transform: translateX(-17vw) translateY(-36vh) scale(0.34);\n  }\n  74.0740740741% {\n    transform: translateX(-26vw) translateY(16vh) scale(0.96);\n  }\n  77.7777777778% {\n    transform: translateX(-27vw) translateY(-3vh) scale(0.78);\n  }\n  81.4814814815% {\n    transform: translateX(4vw) translateY(17vh) scale(0.4);\n  }\n  85.1851851852% {\n    transform: translateX(-47vw) translateY(-41vh) scale(0.45);\n  }\n  88.8888888889% {\n    transform: translateX(-27vw) translateY(43vh) scale(1);\n  }\n  92.5925925926% {\n    transform: translateX(-1vw) translateY(33vh) scale(0.41);\n  }\n  96.2962962963% {\n    transform: translateX(15vw) translateY(28vh) scale(0.27);\n  }\n  100% {\n    transform: translateX(16vw) translateY(-13vh) scale(0.53);\n  }\n}\n.firefly:nth-child(14) {\n  animation-name: move14;\n}\n.firefly:nth-child(14)::before {\n  animation-duration: 9s;\n}\n.firefly:nth-child(14)::after {\n  animation-duration: 9s, 7770ms;\n  animation-delay: 0ms, 6216ms;\n}\n\n@keyframes move14 {\n  0% {\n    transform: translateX(-17vw) translateY(16vh) scale(0.86);\n  }\n  5.2631578947% {\n    transform: translateX(-20vw) translateY(-48vh) scale(0.56);\n  }\n  10.5263157895% {\n    transform: translateX(29vw) translateY(-11vh) scale(0.44);\n  }\n  15.7894736842% {\n    transform: translateX(26vw) translateY(45vh) scale(0.71);\n  }\n  21.0526315789% {\n    transform: translateX(14vw) translateY(46vh) scale(0.57);\n  }\n  26.3157894737% {\n    transform: translateX(-26vw) translateY(37vh) scale(0.46);\n  }\n  31.5789473684% {\n    transform: translateX(-25vw) translateY(26vh) scale(0.54);\n  }\n  36.8421052632% {\n    transform: translateX(37vw) translateY(33vh) scale(0.44);\n  }\n  42.1052631579% {\n    transform: translateX(30vw) translateY(-6vh) scale(0.41);\n  }\n  47.3684210526% {\n    transform: translateX(-46vw) translateY(36vh) scale(0.54);\n  }\n  52.6315789474% {\n    transform: translateX(7vw) translateY(4vh) scale(0.37);\n  }\n  57.8947368421% {\n    transform: translateX(48vw) translateY(-39vh) scale(0.76);\n  }\n  63.1578947368% {\n    transform: translateX(-48vw) translateY(-23vh) scale(0.59);\n  }\n  68.4210526316% {\n    transform: translateX(-47vw) translateY(27vh) scale(0.4);\n  }\n  73.6842105263% {\n    transform: translateX(-10vw) translateY(48vh) scale(0.32);\n  }\n  78.9473684211% {\n    transform: translateX(48vw) translateY(25vh) scale(0.82);\n  }\n  84.2105263158% {\n    transform: translateX(21vw) translateY(-43vh) scale(0.82);\n  }\n  89.4736842105% {\n    transform: translateX(35vw) translateY(4vh) scale(0.52);\n  }\n  94.7368421053% {\n    transform: translateX(-31vw) translateY(-11vh) scale(0.7);\n  }\n  100% {\n    transform: translateX(-37vw) translateY(23vh) scale(0.43);\n  }\n}\n.firefly:nth-child(15) {\n  animation-name: move15;\n}\n.firefly:nth-child(15)::before {\n  animation-duration: 17s;\n}\n.firefly:nth-child(15)::after {\n  animation-duration: 17s, 7258ms;\n  animation-delay: 0ms, 3731ms;\n}\n\n@keyframes move15 {\n  0% {\n    transform: translateX(-32vw) translateY(-45vh) scale(0.86);\n  }\n  5.8823529412% {\n    transform: translateX(-7vw) translateY(-30vh) scale(0.53);\n  }\n  11.7647058824% {\n    transform: translateX(46vw) translateY(42vh) scale(0.67);\n  }\n  17.6470588235% {\n    transform: translateX(20vw) translateY(41vh) scale(0.38);\n  }\n  23.5294117647% {\n    transform: translateX(-38vw) translateY(19vh) scale(0.42);\n  }\n  29.4117647059% {\n    transform: translateX(12vw) translateY(31vh) scale(0.8);\n  }\n  35.2941176471% {\n    transform: translateX(-4vw) translateY(31vh) scale(0.29);\n  }\n  41.1764705882% {\n    transform: translateX(-41vw) translateY(14vh) scale(0.5);\n  }\n  47.0588235294% {\n    transform: translateX(-26vw) translateY(-4vh) scale(0.97);\n  }\n  52.9411764706% {\n    transform: translateX(47vw) translateY(45vh) scale(0.55);\n  }\n  58.8235294118% {\n    transform: translateX(-45vw) translateY(-46vh) scale(0.27);\n  }\n  64.7058823529% {\n    transform: translateX(4vw) translateY(47vh) scale(0.89);\n  }\n  70.5882352941% {\n    transform: translateX(15vw) translateY(-19vh) scale(0.53);\n  }\n  76.4705882353% {\n    transform: translateX(-29vw) translateY(8vh) scale(0.33);\n  }\n  82.3529411765% {\n    transform: translateX(49vw) translateY(28vh) scale(0.54);\n  }\n  88.2352941176% {\n    transform: translateX(36vw) translateY(31vh) scale(0.42);\n  }\n  94.1176470588% {\n    transform: translateX(-1vw) translateY(-42vh) scale(0.57);\n  }\n  100% {\n    transform: translateX(40vw) translateY(37vh) scale(0.86);\n  }\n}\n@keyframes drift {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(360deg);\n  }\n}\n@keyframes flash {\n  0%, 30%, 100% {\n    opacity: 0;\n    box-shadow: 0 0 0vw 0vw rgb(240, 240, 229);\n  }\n  5% {\n    opacity: 1;\n    box-shadow: 0 0 2vw 0.4vw rgb(255, 255, 255);\n  }\n}"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css":
+/*!**************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/index.css ***!
+  \**************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, "body {\n  padding-top:70px;\n\t-ms-overflow-style: scrollbar;\n  background: rgb(169,136,187);\n  background: linear-gradient(180deg, rgba(169,136,187,1) 0%, rgba(116,118,159,1) 10%, rgba(33,42,181,1) 35%, rgba(1,12,190,1) 60%, rgba(36,44,181,1) 86%, rgba(116,118,159,1) 100%);\n}\nh1,\nh2,\nh3,\nh5,\nh6 {\n    letter-spacing: 0;\n    font-weight: normal;\n    position: relative;\n    padding: 0 0 10px 0;\n    font-weight: normal;\n    line-height: 120% !important;\n    text-shadow: 2px 1px 8px rgb(0, 0, 0);\n    color: white;\n    margin: 0\n}\n.icon{\n  color: white;\n  text-shadow: 1px 1px 20px black;\n  padding: 10px;\n}\n.icon:hover{\n  text-shadow: 1px 1px 20px white;\n  color: lightblue;\n}\n.title-box{\n\ttext-align: center;\n\tmargin-bottom: 30px;\n}\n.title-box h2{\n  font-size: 4.5rem;\n}\n\n.about-m{\n\tborder: 2px solid #00cb86;\n\tbox-shadow: 0 10px 25px 0 rgba(255, 255, 255, 0.2);\n  width: 80%;\n  display: inline-block;\n  margin-bottom: 50px;\n}\n.project-m{\n  background-color: white;\n  margin-top: 0;\n\tborder: 2px solid #00cb86;\n\tbox-shadow: 0 10px 25px 0 rgba(0,0,40,.2);\n  text-align: center;\n  margin: .2rem;\n  max-width: 100%;\n  display: inline-block;\n  margin-bottom: 25px;\n}\n*, *:before, *:after {\n\tbox-sizing: inherit;\n}\n.title-wrap{\n  color: white;\n  vertical-align: center;\n  padding-top: 18vh;\n}\n.title-wrap h1 {\n  font-size: 5rem;\n  line-height: 1.1;\n  margin: 0 0 2rem 0;\n}\n\n.title-wrap h2 {\n  font-size: 2.75rem;\n  line-height: 1.3;\n  margin: 0 0 1.5rem 0;\n}\n\n.title-wrap h3 {\n  font-size: 2.25rem;\n  margin: 0 0 1.5rem 0;\n}\n\n.title-wrap h4 {\n  font-size: 2rem;\n}\n.section-1{\n  text-align: center;\n  height: 97vh;\n}\n/*ARROW DOWN CSS START *************/\n.content {\n  padding: 3rem;\n}\n#more-arrows {\n  width: 75px;\n  height: 65px;\n}\n#more-arrows:hover polygon {\n  fill: #FFF;\n  transition: all 0.2s ease-out;\n}\n#more-arrows:hover polygon.arrow-bottom {\n  transform: translateY(-18px);\n}\n#more-arrows:hover polygon.arrow-top {\n  transform: translateY(18px);\n}\npolygon {\n  fill: #FFF;\n  transition: all 0.2s ease-out;\n}\npolygon.arrow-middle {\n  opacity: 0.7;\n}\npolygon.arrow-top {\n  opacity: 0.4;\n}\n\n/*ARROW DOWN CSS END******************/\n.w-link{\n  text-decoration: none;\n  color: black;\n  background-color: white;\n  border-style: 1px solid;\n  border-color:rgb(79, 89, 95);\n  box-shadow: 0 .5px 3px black;\n  margin: 0 10px 10px 10px;\n}\n.w-link:hover{\n  text-decoration: none;\n  background-color: rgb(231, 246, 255);\n  border-style: 2px solid;\n  border-color:lightskyblue;\n  box-shadow: 0 0 5px lightskyblue;\n  text-shadow: 1px 1px 10px white;\n  color: rgb(0, 0, 0) !important;\n}\n#round-profile{\n  width: 15rem;\n  height: 15rem;\n  border-radius: 15rem;\n  background-color: white;\n  padding: 0.5rem;\n  margin-bottom: 20px;\n  box-shadow: 0 .5px 10px black;\n;\n}\n#profile-photo{\n  width: 100%;\n  box-shadow: 0 5px 15px 0 black;\n}\n.box-a1{\n  border-radius: 10px;\n  background-color: #f7f7f7;\n  box-shadow: 1px 0 15px 2px rgb(0, 0, 0);\n  background-size: 8px 8px;\n  background-image:  repeating-linear-gradient(to right, #dfe1ff, #dfe1ff 0.4px, #f7f7f7 0.4px, #f7f7f7);\n\n}\n.box-a1 h2{\n  color: rgb(245, 245, 245);\n    -webkit-text-stroke: .3px black;\n    -webkit-text-fill-color: white;\n}\n.box-a1 h3{\n  color: rgb(245, 245, 245);\n  -webkit-text-stroke: .3px black;\n  -webkit-text-fill-color: white;\n  padding: 10px;\n}\n\n.col-sm-12{\n  text-align: center;\n}\n#info-text{\n  text-align: left;\n  margin: 35px;\n}\n\n/*NAVBAR EDITS*/\n/*SYMPLISTIC NAVBAR EDITS*/\n\n.navbar {\n  background-color: red;\n  font-family: \"Montserrat\", sans-serif;\n  border: none;\n  box-shadow: 0 0 25px black;\n}\n\n.navbar-default .navbar-collapse, .navbar-default .navbar-form {\n  color: black;\n}\n\n.navbar-default .navbar-brand,\n.navbar-default .navbar-nav > li > a {\n  color: black;\n}\n.navbar-default .navbar-brand {\n  font-weight: 700;\n  font-size: 1.25em;\n  letter-spacing: 3px;\n}\n\n.container-fluid {\n  background-color: #fff;\n}\n\n.navbar-toggle {\n  border: none;\n}\n\n.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {\n  background-color: #fff;\n}\n\n.navbar-default .navbar-toggle .icon-bar {\n  background-color: black;\n}\n\n\n/*FOOTER*/\n/* Footer */\n#footer a {\n  color: #717981;\n  border-bottom-color: rgba(113, 121, 129, 0.5);\n  margin: 10px;\n}\n#footer a:hover {\n  text-decoration: none;\n  color: #18bfef !important;\n}\n#footer > section.split > section {\n  padding: 3rem 4rem 1rem 4rem ;\n  border-bottom: solid 2px #e2e2e2;\n}\n#footer > section.split.contact > section {\n  display: -moz-flex;\n  display: -ms-flex;\n  display: flex;\n  -moz-align-items: center;\n  -ms-align-items: center;\n  align-items: center;\n  padding: 3.15rem 4rem;\n}\n#resume-data{\n  text-align: center;\n  margin: auto;\n}\n#resume-document{\n  text-align: center;\n  margin: auto;\n  width: 85%;\n  height: 84.5vh;\n  overflow:hidden;\n  position: relative;\n  display: inline-block;\n}\n#resume-cradle{\n  margin: auto;\n  text-align: center;\n  display: inline-block;\n  width: 81.5%;\n  height: 100vh;\n  padding: 20px;\n  margin: 50px;\n}\n\n.block{\n  height: 20px;\n}\n\n", "",{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA;EACE,gBAAgB;CACjB,6BAA6B;EAC5B,4BAA4B;EAC5B,kLAAkL;AACpL;AACA;;;;;IAKI,iBAAiB;IACjB,mBAAmB;IACnB,kBAAkB;IAClB,mBAAmB;IACnB,mBAAmB;IACnB,4BAA4B;IAC5B,qCAAqC;IACrC,YAAY;IACZ;AACJ;AACA;EACE,YAAY;EACZ,+BAA+B;EAC/B,aAAa;AACf;AACA;EACE,+BAA+B;EAC/B,gBAAgB;AAClB;AACA;CACC,kBAAkB;CAClB,mBAAmB;AACpB;AACA;EACE,iBAAiB;AACnB;;AAEA;CACC,yBAAyB;CACzB,kDAAkD;EACjD,UAAU;EACV,qBAAqB;EACrB,mBAAmB;AACrB;AACA;EACE,uBAAuB;EACvB,aAAa;CACd,yBAAyB;CACzB,yCAAyC;EACxC,kBAAkB;EAClB,aAAa;EACb,eAAe;EACf,qBAAqB;EACrB,mBAAmB;AACrB;AACA;CACC,mBAAmB;AACpB;AACA;EACE,YAAY;EACZ,sBAAsB;EACtB,iBAAiB;AACnB;AACA;EACE,eAAe;EACf,gBAAgB;EAChB,kBAAkB;AACpB;;AAEA;EACE,kBAAkB;EAClB,gBAAgB;EAChB,oBAAoB;AACtB;;AAEA;EACE,kBAAkB;EAClB,oBAAoB;AACtB;;AAEA;EACE,eAAe;AACjB;AACA;EACE,kBAAkB;EAClB,YAAY;AACd;AACA,oCAAoC;AACpC;EACE,aAAa;AACf;AACA;EACE,WAAW;EACX,YAAY;AACd;AACA;EACE,UAAU;EACV,6BAA6B;AAC/B;AACA;EACE,4BAA4B;AAC9B;AACA;EACE,2BAA2B;AAC7B;AACA;EACE,UAAU;EACV,6BAA6B;AAC/B;AACA;EACE,YAAY;AACd;AACA;EACE,YAAY;AACd;;AAEA,sCAAsC;AACtC;EACE,qBAAqB;EACrB,YAAY;EACZ,uBAAuB;EACvB,uBAAuB;EACvB,4BAA4B;EAC5B,4BAA4B;EAC5B,wBAAwB;AAC1B;AACA;EACE,qBAAqB;EACrB,oCAAoC;EACpC,uBAAuB;EACvB,yBAAyB;EACzB,gCAAgC;EAChC,+BAA+B;EAC/B,8BAA8B;AAChC;AACA;EACE,YAAY;EACZ,aAAa;EACb,oBAAoB;EACpB,uBAAuB;EACvB,eAAe;EACf,mBAAmB;EACnB,6BAA6B;;AAE/B;AACA;EACE,WAAW;EACX,8BAA8B;AAChC;AACA;EACE,mBAAmB;EACnB,yBAAyB;EACzB,uCAAuC;EACvC,wBAAwB;EACxB,sGAAsG;;AAExG;AACA;EACE,yBAAyB;IACvB,+BAA+B;IAC/B,8BAA8B;AAClC;AACA;EACE,yBAAyB;EACzB,+BAA+B;EAC/B,8BAA8B;EAC9B,aAAa;AACf;;AAEA;EACE,kBAAkB;AACpB;AACA;EACE,gBAAgB;EAChB,YAAY;AACd;;AAEA,eAAe;AACf,0BAA0B;;AAE1B;EACE,qBAAqB;EACrB,qCAAqC;EACrC,YAAY;EACZ,0BAA0B;AAC5B;;AAEA;EACE,YAAY;AACd;;AAEA;;EAEE,YAAY;AACd;AACA;EACE,gBAAgB;EAChB,iBAAiB;EACjB,mBAAmB;AACrB;;AAEA;EACE,sBAAsB;AACxB;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,sBAAsB;AACxB;;AAEA;EACE,uBAAuB;AACzB;;;AAGA,SAAS;AACT,WAAW;AACX;EACE,cAAc;EACd,6CAA6C;EAC7C,YAAY;AACd;AACA;EACE,qBAAqB;EACrB,yBAAyB;AAC3B;AACA;EACE,6BAA6B;EAC7B,gCAAgC;AAClC;AACA;EACE,kBAAkB;EAElB,iBAAiB;EACjB,aAAa;EACb,wBAAwB;EAExB,uBAAuB;EACvB,mBAAmB;EACnB,qBAAqB;AACvB;AACA;EACE,kBAAkB;EAClB,YAAY;AACd;AACA;EACE,kBAAkB;EAClB,YAAY;EACZ,UAAU;EACV,cAAc;EACd,eAAe;EACf,kBAAkB;EAClB,qBAAqB;AACvB;AACA;EACE,YAAY;EACZ,kBAAkB;EAClB,qBAAqB;EACrB,YAAY;EACZ,aAAa;EACb,aAAa;EACb,YAAY;AACd;;AAEA;EACE,YAAY;AACd","sourcesContent":["body {\n  padding-top:70px;\n\t-ms-overflow-style: scrollbar;\n  background: rgb(169,136,187);\n  background: linear-gradient(180deg, rgba(169,136,187,1) 0%, rgba(116,118,159,1) 10%, rgba(33,42,181,1) 35%, rgba(1,12,190,1) 60%, rgba(36,44,181,1) 86%, rgba(116,118,159,1) 100%);\n}\nh1,\nh2,\nh3,\nh5,\nh6 {\n    letter-spacing: 0;\n    font-weight: normal;\n    position: relative;\n    padding: 0 0 10px 0;\n    font-weight: normal;\n    line-height: 120% !important;\n    text-shadow: 2px 1px 8px rgb(0, 0, 0);\n    color: white;\n    margin: 0\n}\n.icon{\n  color: white;\n  text-shadow: 1px 1px 20px black;\n  padding: 10px;\n}\n.icon:hover{\n  text-shadow: 1px 1px 20px white;\n  color: lightblue;\n}\n.title-box{\n\ttext-align: center;\n\tmargin-bottom: 30px;\n}\n.title-box h2{\n  font-size: 4.5rem;\n}\n\n.about-m{\n\tborder: 2px solid #00cb86;\n\tbox-shadow: 0 10px 25px 0 rgba(255, 255, 255, 0.2);\n  width: 80%;\n  display: inline-block;\n  margin-bottom: 50px;\n}\n.project-m{\n  background-color: white;\n  margin-top: 0;\n\tborder: 2px solid #00cb86;\n\tbox-shadow: 0 10px 25px 0 rgba(0,0,40,.2);\n  text-align: center;\n  margin: .2rem;\n  max-width: 100%;\n  display: inline-block;\n  margin-bottom: 25px;\n}\n*, *:before, *:after {\n\tbox-sizing: inherit;\n}\n.title-wrap{\n  color: white;\n  vertical-align: center;\n  padding-top: 18vh;\n}\n.title-wrap h1 {\n  font-size: 5rem;\n  line-height: 1.1;\n  margin: 0 0 2rem 0;\n}\n\n.title-wrap h2 {\n  font-size: 2.75rem;\n  line-height: 1.3;\n  margin: 0 0 1.5rem 0;\n}\n\n.title-wrap h3 {\n  font-size: 2.25rem;\n  margin: 0 0 1.5rem 0;\n}\n\n.title-wrap h4 {\n  font-size: 2rem;\n}\n.section-1{\n  text-align: center;\n  height: 97vh;\n}\n/*ARROW DOWN CSS START *************/\n.content {\n  padding: 3rem;\n}\n#more-arrows {\n  width: 75px;\n  height: 65px;\n}\n#more-arrows:hover polygon {\n  fill: #FFF;\n  transition: all 0.2s ease-out;\n}\n#more-arrows:hover polygon.arrow-bottom {\n  transform: translateY(-18px);\n}\n#more-arrows:hover polygon.arrow-top {\n  transform: translateY(18px);\n}\npolygon {\n  fill: #FFF;\n  transition: all 0.2s ease-out;\n}\npolygon.arrow-middle {\n  opacity: 0.7;\n}\npolygon.arrow-top {\n  opacity: 0.4;\n}\n\n/*ARROW DOWN CSS END******************/\n.w-link{\n  text-decoration: none;\n  color: black;\n  background-color: white;\n  border-style: 1px solid;\n  border-color:rgb(79, 89, 95);\n  box-shadow: 0 .5px 3px black;\n  margin: 0 10px 10px 10px;\n}\n.w-link:hover{\n  text-decoration: none;\n  background-color: rgb(231, 246, 255);\n  border-style: 2px solid;\n  border-color:lightskyblue;\n  box-shadow: 0 0 5px lightskyblue;\n  text-shadow: 1px 1px 10px white;\n  color: rgb(0, 0, 0) !important;\n}\n#round-profile{\n  width: 15rem;\n  height: 15rem;\n  border-radius: 15rem;\n  background-color: white;\n  padding: 0.5rem;\n  margin-bottom: 20px;\n  box-shadow: 0 .5px 10px black;\n;\n}\n#profile-photo{\n  width: 100%;\n  box-shadow: 0 5px 15px 0 black;\n}\n.box-a1{\n  border-radius: 10px;\n  background-color: #f7f7f7;\n  box-shadow: 1px 0 15px 2px rgb(0, 0, 0);\n  background-size: 8px 8px;\n  background-image:  repeating-linear-gradient(to right, #dfe1ff, #dfe1ff 0.4px, #f7f7f7 0.4px, #f7f7f7);\n\n}\n.box-a1 h2{\n  color: rgb(245, 245, 245);\n    -webkit-text-stroke: .3px black;\n    -webkit-text-fill-color: white;\n}\n.box-a1 h3{\n  color: rgb(245, 245, 245);\n  -webkit-text-stroke: .3px black;\n  -webkit-text-fill-color: white;\n  padding: 10px;\n}\n\n.col-sm-12{\n  text-align: center;\n}\n#info-text{\n  text-align: left;\n  margin: 35px;\n}\n\n/*NAVBAR EDITS*/\n/*SYMPLISTIC NAVBAR EDITS*/\n\n.navbar {\n  background-color: red;\n  font-family: \"Montserrat\", sans-serif;\n  border: none;\n  box-shadow: 0 0 25px black;\n}\n\n.navbar-default .navbar-collapse, .navbar-default .navbar-form {\n  color: black;\n}\n\n.navbar-default .navbar-brand,\n.navbar-default .navbar-nav > li > a {\n  color: black;\n}\n.navbar-default .navbar-brand {\n  font-weight: 700;\n  font-size: 1.25em;\n  letter-spacing: 3px;\n}\n\n.container-fluid {\n  background-color: #fff;\n}\n\n.navbar-toggle {\n  border: none;\n}\n\n.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {\n  background-color: #fff;\n}\n\n.navbar-default .navbar-toggle .icon-bar {\n  background-color: black;\n}\n\n\n/*FOOTER*/\n/* Footer */\n#footer a {\n  color: #717981;\n  border-bottom-color: rgba(113, 121, 129, 0.5);\n  margin: 10px;\n}\n#footer a:hover {\n  text-decoration: none;\n  color: #18bfef !important;\n}\n#footer > section.split > section {\n  padding: 3rem 4rem 1rem 4rem ;\n  border-bottom: solid 2px #e2e2e2;\n}\n#footer > section.split.contact > section {\n  display: -moz-flex;\n  display: -webkit-flex;\n  display: -ms-flex;\n  display: flex;\n  -moz-align-items: center;\n  -webkit-align-items: center;\n  -ms-align-items: center;\n  align-items: center;\n  padding: 3.15rem 4rem;\n}\n#resume-data{\n  text-align: center;\n  margin: auto;\n}\n#resume-document{\n  text-align: center;\n  margin: auto;\n  width: 85%;\n  height: 84.5vh;\n  overflow:hidden;\n  position: relative;\n  display: inline-block;\n}\n#resume-cradle{\n  margin: auto;\n  text-align: center;\n  display: inline-block;\n  width: 81.5%;\n  height: 100vh;\n  padding: 20px;\n  margin: 50px;\n}\n\n.block{\n  height: 20px;\n}\n\n"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./src/App.css":
+/*!*********************!*\
+  !*** ./src/App.css ***!
+  \*********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+if (true) {
+  if (!content.locals || module.hot.invalidate) {
+    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {
+  if (!a && b || a && !b) {
+    return false;
+  }
+
+  var p;
+
+  for (p in a) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (a[p] !== b[p]) {
+      return false;
+    }
+  }
+
+  for (p in b) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (!a[p]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+    var oldLocals = content.locals;
+
+    module.hot.accept(
+      /*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css",
+      function () {
+        content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css");
+
+              content = content.__esModule ? content.default : content;
+
+              if (typeof content === 'string') {
+                content = [[module.i, content, '']];
+              }
+
+              if (!isEqualLocals(oldLocals, content.locals)) {
+                module.hot.invalidate();
+
+                return;
+              }
+
+              oldLocals = content.locals;
+
+              update(content);
+      }
+    )
+  }
+
+  module.hot.dispose(function() {
+    update();
+  });
+}
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/App.js":
+/*!********************!*\
+  !*** ./src/App.js ***!
+  \********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./App.css */ "./src/App.css");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_App_css__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _photos_portrait_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./photos/portrait.png */ "./src/photos/portrait.png");
+/* harmony import */ var _photos_petShop_sample_gif__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./photos/petShop-sample.gif */ "./src/photos/petShop-sample.gif");
+/* harmony import */ var _photos_toolShop_sample_gif__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./photos/toolShop-sample.gif */ "./src/photos/toolShop-sample.gif");
+/* harmony import */ var _photos_header_profile_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./photos/header-profile.jpg */ "./src/photos/header-profile.jpg");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var react_feather__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-feather */ "./node_modules/react-feather/dist/index.js");
+/* harmony import */ var _photos_Resume_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./photos/Resume.js */ "./src/photos/Resume.js");
+/* harmony import */ var _photos_resume_pdf__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./photos/resume.pdf */ "./src/photos/resume.pdf");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\Barron\\Documents\\Portfolio_Page\\react-portfolio\\src\\App.js";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const Background = () => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+    className: "background",
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+      className: "firefly"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+      className: "firefly"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+      className: "firefly"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+      className: "firefly"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+      className: "firefly"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+      className: "firefly"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+      className: "firefly"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+      className: "firefly"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+      className: "firefly"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+      className: "firefly"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+      className: "firefly"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+      className: "firefly"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+      className: "firefly"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+      className: "firefly"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+      className: "firefly"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 7
+    }, undefined)]
+  }, void 0, true, {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 5
+  }, undefined);
+};
+
+_c = Background;
+
+const NavBar = () => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("nav", {
+    class: "navbar navbar-default navbar-fixed-top",
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+      class: "container-fluid",
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+        class: "navbar-header",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("button", {
+          type: "button",
+          class: "navbar-toggle collapsed",
+          "data-toggle": "collapse",
+          "data-target": "#bs-example-navbar-collapse-1",
+          "aria-expanded": "false",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("span", {
+            children: "\u2261"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 42,
+            columnNumber: 13
+          }, undefined)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 41,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+          class: "navbar-brand",
+          children: "C.BARRON"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 44,
+          columnNumber: 11
+        }, undefined)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 40,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+        class: "collapse navbar-collapse",
+        id: "bs-example-navbar-collapse-1",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("ul", {
+          class: "nav navbar-nav navbar-right",
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("li", {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("a", {
+              href: "1",
+              children: "Barron"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 48,
+              columnNumber: 17
+            }, undefined)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 48,
+            columnNumber: 13
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("li", {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("a", {
+              href: "1",
+              children: "About Me"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 49,
+              columnNumber: 17
+            }, undefined)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 49,
+            columnNumber: 13
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("li", {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("a", {
+              href: "2",
+              children: "Projects"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 50,
+              columnNumber: 17
+            }, undefined)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 50,
+            columnNumber: 13
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("li", {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("a", {
+              href: "3",
+              children: "R\xE9sum\xE9"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 51,
+              columnNumber: 17
+            }, undefined)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 51,
+            columnNumber: 13
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("li", {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("a", {
+              href: "4",
+              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(react_feather__WEBPACK_IMPORTED_MODULE_7__["GitHub"], {
+                size: 20
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 52,
+                columnNumber: 29
+              }, undefined)
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 52,
+              columnNumber: 17
+            }, undefined)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 52,
+            columnNumber: 13
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("li", {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("a", {
+              href: "4",
+              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(react_feather__WEBPACK_IMPORTED_MODULE_7__["Linkedin"], {
+                size: 20
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 53,
+                columnNumber: 29
+              }, undefined)
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 53,
+              columnNumber: 17
+            }, undefined)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 53,
+            columnNumber: 13
+          }, undefined)]
+        }, void 0, true, {
+          fileName: _jsxFileName,
+          lineNumber: 47,
+          columnNumber: 11
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 46,
+        columnNumber: 9
+      }, undefined)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 7
+    }, undefined)
+  }, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 38,
+    columnNumber: 5
+  }, undefined);
+};
+
+_c2 = NavBar;
+
+const HeaderPage = () => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+    className: "section-1",
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+      className: "title-wrap",
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("img", {
+        src: _photos_header_profile_jpg__WEBPACK_IMPORTED_MODULE_5__["default"],
+        id: "round-profile",
+        alt: "header-profile"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 64,
+        columnNumber: 7
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("h1", {
+        children: "Carlos Barron"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 65,
+        columnNumber: 7
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("h2", {
+        children: "Fullstack Web Developer"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 66,
+        columnNumber: 7
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("h5", {
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("a", {
+          href: "github",
+          className: "icon",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(react_feather__WEBPACK_IMPORTED_MODULE_7__["GitHub"], {
+            size: 20
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 68,
+            columnNumber: 44
+          }, undefined)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 68,
+          columnNumber: 9
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("a", {
+          href: "linkedin",
+          className: "icon",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(react_feather__WEBPACK_IMPORTED_MODULE_7__["Linkedin"], {
+            size: 20
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 69,
+            columnNumber: 46
+          }, undefined)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 69,
+          columnNumber: 9
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("a", {
+          href: "resume",
+          className: "icon",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(react_feather__WEBPACK_IMPORTED_MODULE_7__["FileText"], {
+            size: 20
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 70,
+            columnNumber: 44
+          }, undefined)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 70,
+          columnNumber: 9
+        }, undefined)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 67,
+        columnNumber: 7
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("h5", {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("em", {
+          children: "FullStack Developer with experience in three different stacks"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 72,
+          columnNumber: 11
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 72,
+        columnNumber: 7
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("p", {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+          class: "content",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("a", {
+            href: "scroll",
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("svg", {
+              id: "more-arrows",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("polygon", {
+                class: "arrow-top",
+                points: "37.6,27.9 1.8,1.3 3.3,0 37.6,25.3 71.9,0 73.7,1.3 "
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 77,
+                columnNumber: 15
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("polygon", {
+                class: "arrow-middle",
+                points: "37.6,45.8 0.8,18.7 4.4,16.4 37.6,41.2 71.2,16.4 74.5,18.7 "
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 78,
+                columnNumber: 15
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("polygon", {
+                class: "arrow-bottom",
+                points: "37.6,64 0,36.1 5.1,32.8 37.6,56.8 70.4,32.8 75.5,36.1 "
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 79,
+                columnNumber: 15
+              }, undefined)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 76,
+              columnNumber: 13
+            }, undefined)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 75,
+            columnNumber: 11
+          }, undefined)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 74,
+          columnNumber: 9
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 73,
+        columnNumber: 7
+      }, undefined)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 63,
+      columnNumber: 5
+    }, undefined)
+  }, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 62,
+    columnNumber: 5
+  }, undefined);
+};
+
+_c3 = HeaderPage;
+
+const AboutMe = () => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+    className: "container",
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+      className: "box-a1",
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+        className: "row",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+          className: "col-lg-12",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+            className: "title-box",
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("h2", {
+              children: "About Me"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 96,
+              columnNumber: 17
+            }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("em", {
+              children: "Web developer with experience in multiple stacks and languages"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 97,
+              columnNumber: 19
+            }, undefined)]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 95,
+            columnNumber: 15
+          }, undefined)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 94,
+          columnNumber: 13
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 93,
+        columnNumber: 11
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+        className: "row",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+          className: "col-lg-12 col-md-12 col-sm-12",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+            className: "row align-items-center about-main-info",
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+              className: "col-lg-6 col-md-6 col-xs-12",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("h3", {
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("b", {
+                  children: " Carlos Barron "
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 107,
+                  columnNumber: 23
+                }, undefined)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 107,
+                columnNumber: 19
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+                id: "info-text",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("p", {
+                  children: "I learned that I love to code in the High School good old days when I wrote my first line of C++ code in a bulky HP running Visual Studio 2010 on the WindowsXP Operating System. Since then I've been fiddling about with a number of technologies, mainly as a Web Developer. When I graduated college I worked with my dad as a technician; fixing computers for small businesses and working with small local networks. I have chosen to leave this occupation because every year it has become less and less economically viable."
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 109,
+                  columnNumber: 21
+                }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("p", {
+                  children: "In my free time I like to learn and read a lot. I taught myself a number of things such as doing mechanic work on my car and basic carpentry doing small projects around my house."
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 118,
+                  columnNumber: 21
+                }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("p", {
+                  children: "Below you can find some of my projects and view my resume."
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 123,
+                  columnNumber: 21
+                }, undefined)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 108,
+                columnNumber: 19
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("a", {
+                href: "rr",
+                className: "btn w-link",
+                children: "View R\xE9sum\xE9"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 127,
+                columnNumber: 19
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+                className: "p-3",
+                children: "___"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 128,
+                columnNumber: 19
+              }, undefined)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 106,
+              columnNumber: 17
+            }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+              className: "col-lg-6 col-md-6 col-sm-12",
+              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+                className: "about-m",
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("img", {
+                  id: "profile-photo",
+                  src: _photos_portrait_png__WEBPACK_IMPORTED_MODULE_2__["default"],
+                  alt: "profile"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 132,
+                  columnNumber: 23
+                }, undefined)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 131,
+                columnNumber: 19
+              }, undefined)
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 130,
+              columnNumber: 17
+            }, undefined)]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 105,
+            columnNumber: 15
+          }, undefined)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 104,
+          columnNumber: 13
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 103,
+        columnNumber: 11
+      }, undefined)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 92,
+      columnNumber: 9
+    }, undefined)
+  }, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 91,
+    columnNumber: 7
+  }, undefined);
+};
+
+_c4 = AboutMe;
+
+const Projects = () => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+    className: "container",
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+      className: "box-a1",
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+        className: "row",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+          className: "col-lg-12",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+            className: "title-box",
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("h2", {
+              children: "Web Application Projects"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 150,
+              columnNumber: 15
+            }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("p", {
+              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("em", {
+                children: "These Projects have been deployed using Amazon AWS. Click on the buttons to open application or to view the source code."
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 152,
+                columnNumber: 17
+              }, undefined)
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 151,
+              columnNumber: 15
+            }, undefined)]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 149,
+            columnNumber: 13
+          }, undefined)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 148,
+          columnNumber: 11
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 147,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+        className: "row",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+          className: "col-lg-12 col-md-12 col-sm-12",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+            className: "row align-items-center about-main-info",
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+              className: "col-lg-6 col-md-6 col-xs-12",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("h2", {
+                children: "eCommerce Site: Tool Shop"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 164,
+                columnNumber: 17
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+                id: "info-text",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("img", {
+                  src: _photos_toolShop_sample_gif__WEBPACK_IMPORTED_MODULE_4__["default"],
+                  alt: "tool_shop",
+                  className: "project-m"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 166,
+                  columnNumber: 19
+                }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("p", {
+                  children: ["This application was created to emulate a simple eCommerce website. The application handles multiple users in a ORM schema with many-to-many and one-to-one relationships. Every user is able to buy items by adding 'itmes to cart' and 'checking out.' Once the User 'Checks out' or completes a purchase the data is saved as 'previous purchases.' Users are also able to sell items by posting them on the front page, including prices and descriptions for the items. Guests can create accounts to access the items being sold on the site.", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("br", {}, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 175,
+                    columnNumber: 23
+                  }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("em", {
+                    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("b", {
+                      children: "**"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 176,
+                      columnNumber: 25
+                    }, undefined), "This site was built using ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("b", {
+                      children: "ASP.NET, C#, CSS"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 176,
+                      columnNumber: 60
+                    }, undefined), " and a combination of ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("b", {
+                      children: "HTML"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 176,
+                      columnNumber: 105
+                    }, undefined), " and ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("b", {
+                      children: "Blazor"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 176,
+                      columnNumber: 121
+                    }, undefined), " for the front-end. Also using the ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("b", {
+                      children: "Entity Framework"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 176,
+                      columnNumber: 169
+                    }, undefined), " to implement the ORM Schema."]
+                  }, void 0, true, {
+                    fileName: _jsxFileName,
+                    lineNumber: 176,
+                    columnNumber: 21
+                  }, undefined)]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 167,
+                  columnNumber: 19
+                }, undefined)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 165,
+                columnNumber: 17
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+                class: "profile-links",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("a", {
+                  target: "_blank",
+                  rel: "noreferrer",
+                  href: "http://54.89.14.210/",
+                  class: "btn w-link",
+                  children: "Open Application"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 181,
+                  columnNumber: 19
+                }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("a", {
+                  target: "_blank",
+                  rel: "noreferrer",
+                  href: "https://github.com/Guadarrama/toolShop",
+                  class: "btn w-link",
+                  children: "View Code"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 182,
+                  columnNumber: 19
+                }, undefined)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 180,
+                columnNumber: 17
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+                className: "p-3",
+                children: "__"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 184,
+                columnNumber: 17
+              }, undefined)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 163,
+              columnNumber: 15
+            }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+              className: "col-lg-6 col-md-6 col-xs-12",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("h2", {
+                children: "Categorization App: Pet Shop"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 188,
+                columnNumber: 17
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+                id: "info-text",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("img", {
+                  src: _photos_petShop_sample_gif__WEBPACK_IMPORTED_MODULE_3__["default"],
+                  alt: "pets",
+                  className: "project-m"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 190,
+                  columnNumber: 19
+                }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("p", {
+                  children: ["This application was made to keep track of multiple 'pets' in a Pet Shop. The user can add, remove or edit multiple pets. They can also 'like' a pet The user can also 'adopt' a pet, which removes the pet from the database. This application features CRUD commands.", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("br", {}, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 196,
+                    columnNumber: 23
+                  }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("em", {
+                    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("b", {
+                      children: "**"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 197,
+                      columnNumber: 25
+                    }, undefined), "This site was built using the ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("b", {
+                      children: "MERN Stack"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 197,
+                      columnNumber: 64
+                    }, undefined), " using ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("b", {
+                      children: "ReactJS"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 197,
+                      columnNumber: 88
+                    }, undefined), " for the front-end, ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("b", {
+                      children: "NodeJS"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 197,
+                      columnNumber: 122
+                    }, undefined), " for the ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("b", {
+                      children: "API"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 197,
+                      columnNumber: 144
+                    }, undefined), " routes and ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("b", {
+                      children: "mongoDB"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 197,
+                      columnNumber: 166
+                    }, undefined), " as a ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("b", {
+                      children: " non-relational database."
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 197,
+                      columnNumber: 186
+                    }, undefined), "This App was deployed using ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("b", {
+                      children: "Amazon AWS"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 198,
+                      columnNumber: 49
+                    }, undefined), " on a ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("b", {
+                      children: "Ubuntu 18.4"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 198,
+                      columnNumber: 72
+                    }, undefined), " server."]
+                  }, void 0, true, {
+                    fileName: _jsxFileName,
+                    lineNumber: 197,
+                    columnNumber: 21
+                  }, undefined)]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 191,
+                  columnNumber: 19
+                }, undefined)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 189,
+                columnNumber: 17
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+                class: "profile-links",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("a", {
+                  target: "_blank",
+                  rel: "noreferrer",
+                  href: "http://54.89.14.210/",
+                  class: "btn w-link",
+                  children: "Open Application"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 203,
+                  columnNumber: 19
+                }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("a", {
+                  target: "_blank",
+                  rel: "noreferrer",
+                  href: "https://github.com/Guadarrama/toolShop",
+                  class: "btn w-link",
+                  children: "View Code"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 204,
+                  columnNumber: 19
+                }, undefined)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 202,
+                columnNumber: 17
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+                className: "p-3",
+                children: "__"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 206,
+                columnNumber: 17
+              }, undefined)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 187,
+              columnNumber: 15
+            }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+              className: "col-lg-12 col-md-12 col-xs-12",
+              id: "resume-data",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("h2", {
+                children: "R\xE9sum\xE9"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 210,
+                columnNumber: 17
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("p", {
+                children: "___"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 211,
+                columnNumber: 17
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+                id: "resume-cladle",
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+                  dangerouslySetInnerHTML: {
+                    __html: _photos_Resume_js__WEBPACK_IMPORTED_MODULE_8__["myHTML"]
+                  },
+                  id: "resume-document"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 213,
+                  columnNumber: 21
+                }, undefined)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 212,
+                columnNumber: 17
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("a", {
+                href: _photos_resume_pdf__WEBPACK_IMPORTED_MODULE_9__["default"],
+                className: "btn w-link",
+                download: true,
+                children: "Download R\xE9sum\xE9 PDF"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 215,
+                columnNumber: 17
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+                className: "p-3",
+                children: "___"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 216,
+                columnNumber: 17
+              }, undefined)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 209,
+              columnNumber: 15
+            }, undefined)]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 162,
+            columnNumber: 13
+          }, undefined)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 161,
+          columnNumber: 11
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 160,
+        columnNumber: 9
+      }, undefined)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 146,
+      columnNumber: 7
+    }, undefined)
+  }, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 145,
+    columnNumber: 5
+  }, undefined);
+};
+
+_c5 = Projects;
+
+const ContactMe = () => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+    className: "container",
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+      className: "box-a1",
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("footer", {
+        id: "footer",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("section", {
+          class: "split contact",
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("section", {
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("h4", {
+              children: "Email"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 233,
+              columnNumber: 17
+            }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("a", {
+              href: "mailto:albertc.barron@gmail.com",
+              children: "albertc.barron@gmail.com"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 234,
+              columnNumber: 17
+            }, undefined)]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 232,
+            columnNumber: 15
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("section", {
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("h4", {
+              children: "Social"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 237,
+              columnNumber: 17
+            }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("a", {
+              target: "_blank",
+              rel: "noreferrer",
+              href: "https://www.linkedin.com/in/carlos-barron-guadarrama-800743194/",
+              class: "",
+              children: "linkedin"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 238,
+              columnNumber: 19
+            }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("a", {
+              target: "_blank",
+              rel: "noreferrer",
+              href: "https://github.com/Guadarrama",
+              class: "",
+              children: "github"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 239,
+              columnNumber: 19
+            }, undefined)]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 236,
+            columnNumber: 15
+          }, undefined)]
+        }, void 0, true, {
+          fileName: _jsxFileName,
+          lineNumber: 231,
+          columnNumber: 13
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 230,
+        columnNumber: 11
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 229,
+      columnNumber: 7
+    }, undefined)
+  }, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 228,
+    columnNumber: 5
+  }, undefined);
+};
+
+_c6 = ContactMe;
+
+const Block = () => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+    className: "container",
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+      className: "block"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 251,
+      columnNumber: 7
+    }, undefined)
+  }, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 250,
+    columnNumber: 5
+  }, undefined);
+};
+
+_c7 = Block;
+
+function App() {
+  // const titleRef = useRef()
+  // handleBackClick = () =>{titleRef.current.scrollIntoView({ behavior:'smooth' })}
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("body", {
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(Background, {}, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 261,
+      columnNumber: 7
+    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(NavBar, {}, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 262,
+      columnNumber: 7
+    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(HeaderPage, {}, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 263,
+      columnNumber: 7
+    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(AboutMe, {}, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 264,
+      columnNumber: 7
+    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(Block, {}, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 265,
+      columnNumber: 7
+    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(Projects, {}, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 266,
+      columnNumber: 7
+    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(Block, {}, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 267,
+      columnNumber: 7
+    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(ContactMe, {}, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 268,
+      columnNumber: 7
+    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(Block, {}, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 269,
+      columnNumber: 7
+    }, this)]
+  }, void 0, true, {
+    fileName: _jsxFileName,
+    lineNumber: 260,
+    columnNumber: 5
+  }, this);
+}
+
+_c8 = App;
+/* harmony default export */ __webpack_exports__["default"] = (App);
+
+var _c, _c2, _c3, _c4, _c5, _c6, _c7, _c8;
+
+__webpack_require__.$Refresh$.register(_c, "Background");
+__webpack_require__.$Refresh$.register(_c2, "NavBar");
+__webpack_require__.$Refresh$.register(_c3, "HeaderPage");
+__webpack_require__.$Refresh$.register(_c4, "AboutMe");
+__webpack_require__.$Refresh$.register(_c5, "Projects");
+__webpack_require__.$Refresh$.register(_c6, "ContactMe");
+__webpack_require__.$Refresh$.register(_c7, "Block");
+__webpack_require__.$Refresh$.register(_c8, "App");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/index.css":
+/*!***********************!*\
+  !*** ./src/index.css ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+if (true) {
+  if (!content.locals || module.hot.invalidate) {
+    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {
+  if (!a && b || a && !b) {
+    return false;
+  }
+
+  var p;
+
+  for (p in a) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (a[p] !== b[p]) {
+      return false;
+    }
+  }
+
+  for (p in b) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (!a[p]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+    var oldLocals = content.locals;
+
+    module.hot.accept(
+      /*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css",
+      function () {
+        content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+              content = content.__esModule ? content.default : content;
+
+              if (typeof content === 'string') {
+                content = [[module.i, content, '']];
+              }
+
+              if (!isEqualLocals(oldLocals, content.locals)) {
+                module.hot.invalidate();
+
+                return;
+              }
+
+              oldLocals = content.locals;
+
+              update(content);
+      }
+    )
+  }
+
+  module.hot.dispose(function() {
+    update();
+  });
+}
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.css */ "./src/index.css");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./App */ "./src/App.js");
+/* harmony import */ var _reportWebVitals__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./reportWebVitals */ "./src/reportWebVitals.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\Barron\\Documents\\Portfolio_Page\\react-portfolio\\src\\index.js";
+
+
+
+
+ //import 'bootstrap/dist/css/bootstrap.css';
+
+
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(react__WEBPACK_IMPORTED_MODULE_0___default.a.StrictMode, {
+  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(_App__WEBPACK_IMPORTED_MODULE_3__["default"], {}, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 11,
+    columnNumber: 5
+  }, undefined)
+}, void 0, false, {
+  fileName: _jsxFileName,
+  lineNumber: 10,
+  columnNumber: 3
+}, undefined), document.getElementById('root')); // If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+
+Object(_reportWebVitals__WEBPACK_IMPORTED_MODULE_4__["default"])();
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/photos/Resume.js":
+/*!******************************!*\
+  !*** ./src/photos/Resume.js ***!
+  \******************************/
+/*! exports provided: myHTML */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "myHTML", function() { return myHTML; });
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+const myHTML = `
+<html>
+<head><meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+span.cls_002{font-family:"Calibri",serif;font-size:11.1px;color:rgb(108,108,108);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_002{font-family:"Calibri",serif;font-size:11.1px;color:rgb(108,108,108);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_019{font-family:"Calibri",serif;font-size:10.6px;color:rgb(114,114,114);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_019{font-family:"Calibri",serif;font-size:10.6px;color:rgb(114,114,114);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_004{font-family:"Calibri",serif;font-size:10.6px;color:rgb(108,108,108);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_004{font-family:"Calibri",serif;font-size:10.6px;color:rgb(108,108,108);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_005{font-family:"Calibri",serif;font-size:22.0px;color:rgb(108,108,108);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_005{font-family:"Calibri",serif;font-size:22.0px;color:rgb(108,108,108);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_020{font-family:"Calibri",serif;font-size:10.6px;color:rgb(129,129,129);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_020{font-family:"Calibri",serif;font-size:10.6px;color:rgb(129,129,129);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_007{font-family:"Calibri Bold",serif;font-size:13.0px;color:rgb(108,108,108);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_007{font-family:"Calibri Bold",serif;font-size:13.0px;color:rgb(108,108,108);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_008{font-family:"Calibri Bold",serif;font-size:12.1px;color:rgb(108,108,108);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_008{font-family:"Calibri Bold",serif;font-size:12.1px;color:rgb(108,108,108);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_009{font-family:Arial,serif;font-size:11.1px;color:rgb(108,108,108);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_009{font-family:Arial,serif;font-size:11.1px;color:rgb(108,108,108);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_010{font-family:Arial,serif;font-size:11.1px;color:rgb(108,108,108);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_010{font-family:Arial,serif;font-size:11.1px;color:rgb(108,108,108);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_011{font-family:"Calibri Bold",serif;font-size:11.1px;color:rgb(108,108,108);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_011{font-family:"Calibri Bold",serif;font-size:11.1px;color:rgb(108,108,108);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_012{font-family:"Calibri Bold Italic",serif;font-size:12.1px;color:rgb(108,108,108);font-weight:bold;font-style:italic;text-decoration: none}
+div.cls_012{font-family:"Calibri Bold Italic",serif;font-size:12.1px;color:rgb(108,108,108);font-weight:bold;font-style:italic;text-decoration: none}
+span.cls_013{font-family:"Calibri",serif;font-size:10.0px;color:rgb(108,108,108);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_013{font-family:"Calibri",serif;font-size:10.0px;color:rgb(108,108,108);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_014{font-family:"Calibri Bold",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_014{font-family:"Calibri Bold",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_015{font-family:"Calibri Bold Italic",serif;font-size:11.1px;color:rgb(108,108,108);font-weight:bold;font-style:italic;text-decoration: none}
+div.cls_015{font-family:"Calibri Bold Italic",serif;font-size:11.1px;color:rgb(108,108,108);font-weight:bold;font-style:italic;text-decoration: none}
+span.cls_016{font-family:"Calibri",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_016{font-family:"Calibri",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_021{font-family:"Calibri",serif;font-size:12.1px;color:rgb(114,114,114);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_021{font-family:"Calibri",serif;font-size:12.1px;color:rgb(114,114,114);font-weight:normal;font-style:normal;text-decoration: none}
+-->
+</style>
+</head>
+<body>
+<div>
+<div style="position:absolute;left:0px;top:0px">
+<img src="./background1.jpg" width=612 height=792></div>
+<div style="position:absolute;left:38.88px;top:33.36px" class="cls_002"><span class="cls_002">Winston Salem, NC</span></div>
+<div style="position:absolute;left:475.27px;top:33.36px" class="cls_002"><span class="cls_002">(336)-450-9654</span></div>
+<div style="position:absolute;left:38.88px;top:44.16px" class="cls_019"><span class="cls_019"> </span><A HREF="http://www.github.com/guadarrama">www.github.com/guadarrama</A> </div>
+<div style="position:absolute;left:418.87px;top:44.16px" class="cls_004"><span class="cls_004">C.Alberto.Barron@gmail.com</span></div>
+<div style="position:absolute;left:213.05px;top:39.48px" class="cls_005"><span class="cls_005">CARLOS BARRON</span></div>
+<div style="position:absolute;left:414.43px;top:62.04px" class="cls_020"><span class="cls_020"> </span><A HREF="https://guadarrama.github.io/">https://Guadarrama.GitHub.io</A> </div>
+<div style="position:absolute;left:36.00px;top:96.62px" class="cls_007"><span class="cls_007">EDUCATION</span></div>
+<div style="position:absolute;left:36.00px;top:113.78px" class="cls_008"><span class="cls_008">Arlington, VA</span></div>
+<div style="position:absolute;left:257.81px;top:113.78px" class="cls_008"><span class="cls_008">Coding Dojo</span></div>
+<div style="position:absolute;left:399.91px;top:113.78px" class="cls_008"><span class="cls_008">October 2019 - January 2020</span></div>
+<div style="position:absolute;left:54.00px;top:129.02px" class="cls_009"><span class="cls_009">•</span><span class="cls_010"> </span><span class="cls_011">  Programming Coursework: </span><span class="cls_002">Algorithms, Data Structures, Object Oriented Programming. C# ASP.NET Entity</span></div>
+<div style="position:absolute;left:72.02px;top:142.46px" class="cls_002"><span class="cls_002">Framework Core, ReactJS, ExpressJS, MongoDB, Python, Django, Flask.</span></div>
+<div style="position:absolute;left:36.00px;top:169.34px" class="cls_008"><span class="cls_008">Dobson, NC</span></div>
+<div style="position:absolute;left:224.93px;top:169.34px" class="cls_008"><span class="cls_008">Surry Community College</span></div>
+<div style="position:absolute;left:421.39px;top:169.34px" class="cls_008"><span class="cls_008">August 2014 - June 2016</span></div>
+<div style="position:absolute;left:54.00px;top:184.46px" class="cls_009"><span class="cls_009">•</span><span class="cls_010"> </span><span class="cls_011">  Completion:</span><span class="cls_002"> Associate is Science and Associate in Arts (</span><span class="cls_011">GPA: 3.7</span><span class="cls_002">)</span></div>
+<div style="position:absolute;left:54.00px;top:198.50px" class="cls_009"><span class="cls_009">•</span><span class="cls_010"> </span><span class="cls_011">  Relevant Coursework: </span><span class="cls_002">Fundamentals of C#, Calculus (1, 2 & 3), Differential Equations, Linear Algebra</span></div>
+<div style="position:absolute;left:36.00px;top:222.74px" class="cls_007"><span class="cls_007">EMPLOYMENT</span></div>
+<div style="position:absolute;left:36.00px;top:240.02px" class="cls_012"><span class="cls_012">Helpdesk, Independent Contractor</span></div>
+<div style="position:absolute;left:253.13px;top:240.02px" class="cls_012"><span class="cls_012">Self Employed</span></div>
+<div style="position:absolute;left:446.11px;top:240.02px" class="cls_012"><span class="cls_012">May 2016 - present</span></div>
+<div style="position:absolute;left:36.00px;top:254.93px" class="cls_013"><span class="cls_013">Worked with clients to provide solutions to computer equipment in small business environments. Including installation and</span></div>
+<div style="position:absolute;left:36.00px;top:267.05px" class="cls_013"><span class="cls_013">configuration of LAN along with their respective hardware and software. Prepared and updated documentation required.</span></div>
+<div style="position:absolute;left:36.00px;top:279.29px" class="cls_013"><span class="cls_013">Provided support as required on a 24/7 basis.</span></div>
+<div style="position:absolute;left:36.00px;top:291.29px" class="cls_008"><span class="cls_008">Full Stack Developer</span></div>
+<div style="position:absolute;left:257.81px;top:291.29px" class="cls_008"><span class="cls_008">Coding Dojo</span></div>
+<div style="position:absolute;left:399.91px;top:291.29px" class="cls_008"><span class="cls_008">October 2019 - January 2020</span></div>
+<div style="position:absolute;left:36.00px;top:306.17px" class="cls_013"><span class="cls_013">Dedicated over 1,000 hours in a 3 month intensive hands- on training to develop dozens of web applications using Python, C#</span></div>
+<div style="position:absolute;left:36.00px;top:318.41px" class="cls_013"><span class="cls_013">and Javascript. Using a multitude of frameworks such as Flask, Django, ASP.NET Core, Entity Framework and ReactJS. Created</span></div>
+<div style="position:absolute;left:36.00px;top:330.53px" class="cls_013"><span class="cls_013">user friendly sites with CRUD operations and RESTful routes with API integration. Collaborated with colleagues to implement</span></div>
+<div style="position:absolute;left:36.00px;top:342.77px" class="cls_013"><span class="cls_013">both front-end and back-end solutions to a wide array of unique challenges and wireframe specifications.</span></div>
+<div style="position:absolute;left:36.00px;top:365.57px" class="cls_007"><span class="cls_007">SOFTWARE PROJECTS</span></div>
+<div style="position:absolute;left:36.00px;top:382.85px" class="cls_014"><span class="cls_014">Travel Planner</span></div>
+<div style="position:absolute;left:54.00px;top:397.49px" class="cls_015"><span class="cls_015">Developed using Python, Django, SQLite, HTML, CSS - Deployed using AWS(EC2)</span></div>
+<div style="position:absolute;left:54.00px;top:410.81px" class="cls_002"><span class="cls_002">Application allows a multitude of registered users to coordinate travel plans and join travel itineraries via</span></div>
+<div style="position:absolute;left:54.00px;top:424.27px" class="cls_002"><span class="cls_002">SQLite connections and user friendly web-interface</span></div>
+<div style="position:absolute;left:54.00px;top:437.71px" class="cls_002"><span class="cls_002">Featuring login validations, bycript password hashing, sessions, and various schema relationships</span></div>
+<div style="position:absolute;left:36.00px;top:451.15px" class="cls_014"><span class="cls_014">Tool Shop (</span><span class="cls_016">Link: </span><A HREF="http://54.89.14.210/">http://54.89.14.210/)</A> </span></div>
+<div style="position:absolute;left:54.00px;top:465.79px" class="cls_015"><span class="cls_015">Developed using C#, ASP.NET Core, Entity Framework, HTML, CSS and Bootstrap - Deployed using AWS(EC2)</span></div>
+<div style="position:absolute;left:54.00px;top:479.23px" class="cls_002"><span class="cls_002">Application allows users to create items to buy and sell. Includes item checkout, purchase history and</span></div>
+<div style="position:absolute;left:54.00px;top:492.67px" class="cls_002"><span class="cls_002">shopping cart functionality. Also features login and password validations, bcrypt password hashing, session,</span></div>
+<div style="position:absolute;left:54.00px;top:506.11px" class="cls_002"><span class="cls_002">one-to-many and many-to-many schema relationships.</span></div>
+<div style="position:absolute;left:36.00px;top:519.55px" class="cls_014"><span class="cls_014">Pet Shelter(</span><span class="cls_016">Link: </span><A HREF="http://174.129.104.40/pets">http://174.129.104.40/pets</A> )</span></div>
+<div style="position:absolute;left:54.00px;top:534.19px" class="cls_011"><span class="cls_011">Developed using Javascript; ReactJS, NodeJS, MongoDB, Mongoose, HTML, CSS and Bootstrap - Deployed</span></div>
+<div style="position:absolute;left:54.00px;top:547.63px" class="cls_011"><span class="cls_011">using AWS(EC2)</span></div>
+<div style="position:absolute;left:54.00px;top:561.07px" class="cls_002"><span class="cls_002">Application allows users to add pets to a shelter, adopt or like a pet. Features validations, sorting, and one-to-</span></div>
+<div style="position:absolute;left:54.00px;top:574.51px" class="cls_002"><span class="cls_002">one relationships.</span></div>
+</div>
+
+</body>
+</html>
+
+`;
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/photos/header-profile.jpg":
+/*!***************************************!*\
+  !*** ./src/photos/header-profile.jpg ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "static/media/header-profile.b3c69d8c.jpg");
+
+/***/ }),
+
+/***/ "./src/photos/petShop-sample.gif":
+/*!***************************************!*\
+  !*** ./src/photos/petShop-sample.gif ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "static/media/petShop-sample.1c7385cf.gif");
+
+/***/ }),
+
+/***/ "./src/photos/portrait.png":
+/*!*********************************!*\
+  !*** ./src/photos/portrait.png ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "static/media/portrait.577c28ae.png");
+
+/***/ }),
+
+/***/ "./src/photos/resume.pdf":
+/*!*******************************!*\
+  !*** ./src/photos/resume.pdf ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "static/media/resume.b8d0f212.pdf");
+
+/***/ }),
+
+/***/ "./src/photos/toolShop-sample.gif":
+/*!****************************************!*\
+  !*** ./src/photos/toolShop-sample.gif ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "static/media/toolShop-sample.2bacc112.gif");
+
+/***/ }),
+
+/***/ "./src/reportWebVitals.js":
+/*!********************************!*\
+  !*** ./src/reportWebVitals.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+const reportWebVitals = onPerfEntry => {
+  if (onPerfEntry && onPerfEntry instanceof Function) {
+    __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! web-vitals */ "./node_modules/web-vitals/dist/web-vitals.js")).then(({
+      getCLS,
+      getFID,
+      getFCP,
+      getLCP,
+      getTTFB
+    }) => {
+      getCLS(onPerfEntry);
+      getFID(onPerfEntry);
+      getFCP(onPerfEntry);
+      getLCP(onPerfEntry);
+      getTTFB(onPerfEntry);
+    });
+  }
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (reportWebVitals);
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ 1:
+/*!**********************************************************************************************************************************************************************************************!*\
+  !*** multi (webpack)/hot/dev-server.js ./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js ./node_modules/react-dev-utils/webpackHotDevClient.js ./src/index.js ***!
+  \**********************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! C:\Users\Barron\Documents\Portfolio_Page\react-portfolio\node_modules\webpack\hot\dev-server.js */"./node_modules/webpack/hot/dev-server.js");
+__webpack_require__(/*! C:\Users\Barron\Documents\Portfolio_Page\react-portfolio\node_modules\@pmmmwh\react-refresh-webpack-plugin\client\ReactRefreshEntry.js */"./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js");
+__webpack_require__(/*! C:\Users\Barron\Documents\Portfolio_Page\react-portfolio\node_modules\react-dev-utils\webpackHotDevClient.js */"./node_modules/react-dev-utils/webpackHotDevClient.js");
+module.exports = __webpack_require__(/*! C:\Users\Barron\Documents\Portfolio_Page\react-portfolio\src\index.js */"./src/index.js");
+
+
+/***/ })
+
+},[[1,"runtime-main","vendors~main"]]]);
+//# sourceMappingURL=main.chunk.js.map
